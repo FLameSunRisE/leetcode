@@ -4,6 +4,10 @@ class Solution:
         :type A: List[List[int]]
         :rtype: List[List[int]]
         """
+        for list in A:
+            for num in list:
+                pass
+            pass
         
         
 if __name__ == '__main__':
