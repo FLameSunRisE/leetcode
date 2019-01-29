@@ -4,10 +4,11 @@ class Solution:
         :type A: List[List[int]]
         :rtype: List[List[int]]
         """
-        for list in A:
-            for num in list:
-                pass
-            pass
+        for row in range(len(A)):
+            A[row] = A[row][::-1]
+            for col in range(len(A[row])):
+                A[row][col] ^= 1
+        return A
         
         
 if __name__ == '__main__':
