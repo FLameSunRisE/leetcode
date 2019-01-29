@@ -5,15 +5,18 @@ class Solution:
         :rtype: List[int]
         """
         N = len(S)
+        A = list (range(0,N+1))
         outPutList = []
         for num in range(N):
             if S[num] == "I":
-                outPutList.append(num)
+                outPutList.append(A.pop(0))
                 pass
             else:
-                outPutList.append(N-2)
+                outPutList.append(A.pop())
                 pass
             pass
+        if len(A) > 0:
+            outPutList.append(A.pop())
         return outPutList
 
         
