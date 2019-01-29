@@ -4,7 +4,6 @@ class Solution:
         :type moves: str
         :rtype: bool
         """
-        moveList = list(moves)
         numU = moves.count("U")
         numD = moves.count("D")
         numR = moves.count("R")
