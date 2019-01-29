@@ -4,6 +4,8 @@ class Solution:
         :type S: str
         :rtype: List[int]
         """
+        N = len(S)
+        
 
         
 if __name__ == '__main__':
