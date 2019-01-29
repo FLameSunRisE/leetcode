@@ -12,7 +12,6 @@ class Solution:
             else:
                 oddList.append(i)
         evenList.extend(oddList)
-        print (evenList)
         return evenList
 
         
