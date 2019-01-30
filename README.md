@@ -2,8 +2,9 @@
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 595 | [big-countries](https://leetcode.com/problems/big-countries/) | SQL | Easy | [SQL](/python/595_BigCountries.sql) |  |  |
-| 657 | [robot-return-to-origin/](https://leetcode.com/problems/robot-return-to-origin/) | String | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
+| 657 | [robot-return-to-origin](https://leetcode.com/problems/robot-return-to-origin/) | String | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
