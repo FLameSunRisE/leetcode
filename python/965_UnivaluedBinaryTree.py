@@ -11,10 +11,19 @@ class Solution:
         :type root: TreeNode
         :rtype: bool
         """
-        print (root)
-        
+        vals = []
+
+        def dfs(node):
+            if node:
+                vals.append(node.val)
+                dfs(node.left)
+                dfs(node.right)
+
+        dfs(root)
+        return len(set(vals)) == 1
+
 
 if __name__ == '__main__':
     solution = Solution()
-    print (solution.isUnivalTree([1,1,1,1,1,'null',1]))
+    print (solution.isUnivalTree([1,1,1,1,1,null,1]))
     print (solution.isUnivalTree([2,2,2,5,2]))
