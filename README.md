@@ -3,7 +3,7 @@
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
-| 561 | [array-partition-i](https://leetcode.com/problems/array-partition-i/) | Array | Easy | python |  |  |
+| 561 | [array-partition-i](https://leetcode.com/problems/array-partition-i/) | Array | Easy | [python](/python/561_ArrayPartitionI.py) | O\(N\) | O\(N\) |
 | 595 | [big-countries](https://leetcode.com/problems/big-countries/) | SQL | Easy | [SQL](/python/595_BigCountries.sql) |  |  |
 | 617 | [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/) | Tree | Easy | [Python](/python/617_MergeTwoBinaryTrees.py) | O\(N\) | O\(logN\) |
 | 627 | [swap-salary](https://leetcode.com/problems/swap-salary/) | SQL | Easy | SQL |  |  |
