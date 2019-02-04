@@ -18,6 +18,7 @@
 | 942 | [di-string-match](https://leetcode.com/problems/di-string-match/) | Math | Easy | [python](/python/942_DIStringMatch.py) | O\(N\) | O\(N\) |
 | 944 | [delete-columns-to-make-sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Greedy | Easy | [python](/python/944_DeleteColumnsToMakeSorted.py) | O\(N\) | O\(1\) |
 | 961 | [n-repeated-element-in-size-2n-array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Hash Table | Easy | [python](/python/961_N-RepeatedElementInSize2NArray.py) | O\(N\) | O\(N\) |
+| 965 | [univalued-binary-tree/](https://leetcode.com/problems/univalued-binary-tree/) | Tree | Easy | python | O\(N\) | O\(N\) |
 | 977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Array,Two Pointer,Sort | Easy | [python](/python/977_SquaresofASortedArray.py) | O\(NlogN\) | O\(N\) |
 
 
