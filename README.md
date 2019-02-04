@@ -3,6 +3,7 @@
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
+| 561 | [array-partition-i](https://leetcode.com/problems/array-partition-i/) | Array | Easy | python |  |  |
 | 595 | [big-countries](https://leetcode.com/problems/big-countries/) | SQL | Easy | [SQL](/python/595_BigCountries.sql) |  |  |
 | 617 | [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/) | Tree | Easy | [Python](/python/617_MergeTwoBinaryTrees.py) | O\(N\) | O\(logN\) |
 | 627 | [swap-salary](https://leetcode.com/problems/swap-salary/) | SQL | Easy | SQL |  |  |
@@ -18,7 +19,7 @@
 | 942 | [di-string-match](https://leetcode.com/problems/di-string-match/) | Math | Easy | [python](/python/942_DIStringMatch.py) | O\(N\) | O\(N\) |
 | 944 | [delete-columns-to-make-sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Greedy | Easy | [python](/python/944_DeleteColumnsToMakeSorted.py) | O\(N\) | O\(1\) |
 | 961 | [n-repeated-element-in-size-2n-array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Hash Table | Easy | [python](/python/961_N-RepeatedElementInSize2NArray.py) | O\(N\) | O\(N\) |
-| 965 | [univalued-binary-tree/](https://leetcode.com/problems/univalued-binary-tree/) | Tree | Easy | python | O\(N\) | O\(N\) |
+| 965 | [univalued-binary-tree/](https://leetcode.com/problems/univalued-binary-tree/) | Tree | Easy | [python](/python/965_UnivaluedBinaryTree.py) | O\(N\) | O\(N\) |
 | 977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Array,Two Pointer,Sort | Easy | [python](/python/977_SquaresofASortedArray.py) | O\(NlogN\) | O\(N\) |
 
 
