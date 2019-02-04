@@ -8,7 +8,7 @@
 | 627 | [swap-salary](https://leetcode.com/problems/swap-salary/) | SQL | Easy | SQL |  |  |
 | 657 | [robot-return-to-origin](https://leetcode.com/problems/robot-return-to-origin/) | String | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
-| 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | python |  |  |
+| 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
