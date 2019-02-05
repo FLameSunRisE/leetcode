@@ -62,3 +62,16 @@ def treeNodeToString(root):
 
 class Solution:
     def searchBST(self, root: 'TreeNode', val: 'int') -> 'TreeNode':
+        if root and val < root.val:
+            return self.searchBST(root.left, val)
+        elif root and val > root.val:
+            return self.searchBST(root.right, val)
+        return root
+
+if __name__ == '__main__':
+    solution = Solution()
+    root = stringToTreeNode('[4,2,7,1,3]')
+    val = int('2')
+    ret = Solution().searchBST(root, val)
+    out = treeNodeToString(ret)
+    print(out)
