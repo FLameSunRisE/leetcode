@@ -17,7 +17,7 @@
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
 | 852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_PeakIndexInAMountainArray.py) | O\(logN\) | O\(1\) |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
-| 922 | [sort-array-by-parity-ii/](https://leetcode.com/problems/sort-array-by-parity-ii/) | Array, Sort | Easy | python |  |  |
+| 922 | [sort-array-by-parity-ii](https://leetcode.com/problems/sort-array-by-parity-ii/) | Array, Sort | Easy | [python](/python/922_SortArrayByParityII.py) | O\(N\) | O\(N\) |
 | 929 | [unique-email-addresses](https://leetcode.com/problems/unique-email-addresses/ "unique-email-addresses") | String | Easy | [python](/python/929_UniqueEmailAddresses.py) | O\(N\) | O\(N\) |
 | 933 | [number-of-recent-calls](https://leetcode.com/problems/number-of-recent-calls/) | Queue | Easy | Python |  |  |
 | 942 | [di-string-match](https://leetcode.com/problems/di-string-match/) | Math | Easy | [python](/python/942_DIStringMatch.py) | O\(N\) | O\(N\) |
