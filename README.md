@@ -15,11 +15,14 @@
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
 | 852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_PeakIndexInAMountainArray.py) | O\(logN\) | O\(1\) |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
+| 922 | [sort-array-by-parity-ii/](https://leetcode.com/problems/sort-array-by-parity-ii/) | Array, Sort | Easy | python |  |  |
 | 929 | [unique-email-addresses](https://leetcode.com/problems/unique-email-addresses/ "unique-email-addresses") | String | Easy | [python](/python/929_UniqueEmailAddresses.py) | O\(N\) | O\(N\) |
+| 933 | [number-of-recent-calls](https://leetcode.com/problems/number-of-recent-calls/) | Queue | Easy | Python |  |  |
 | 942 | [di-string-match](https://leetcode.com/problems/di-string-match/) | Math | Easy | [python](/python/942_DIStringMatch.py) | O\(N\) | O\(N\) |
 | 944 | [delete-columns-to-make-sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Greedy | Easy | [python](/python/944_DeleteColumnsToMakeSorted.py) | O\(N\) | O\(1\) |
 | 961 | [n-repeated-element-in-size-2n-array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Hash Table | Easy | [python](/python/961_N-RepeatedElementInSize2NArray.py) | O\(N\) | O\(N\) |
 | 965 | [univalued-binary-tree/](https://leetcode.com/problems/univalued-binary-tree/) | Tree | Easy | [python](/python/965_UnivaluedBinaryTree.py) | O\(N\) | O\(N\) |
+| 973 | [k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Math, Divide and Conquer, Sort | Easy | python |  |  |
 | 977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Array,Two Pointer,Sort | Easy | [python](/python/977_SquaresofASortedArray.py) | O\(NlogN\) | O\(N\) |
 
 
