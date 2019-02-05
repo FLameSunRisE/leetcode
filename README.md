@@ -9,7 +9,7 @@
 | 617 | [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/) | Tree | Easy | [Python](/python/617_MergeTwoBinaryTrees.py) | O\(N\) | O\(logN\) |
 | 627 | [swap-salary](https://leetcode.com/problems/swap-salary/) | SQL | Easy | [SQL](/python/627_SwapSalary.SQL) |  |  |
 | 657 | [robot-return-to-origin](https://leetcode.com/problems/robot-return-to-origin/) | String | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
-| 700 | [search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Tree | Easy | Python |  |  |
+| 700 | [search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Tree | Easy | [Python](/python/700_SearchInABinarySearchTree.py) | O\(logN\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
 | 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
