@@ -7,12 +7,17 @@ class Node:
 """
 class Solution:
     def maxDepth(self, root: 'Node') -> 'int':
-        
+        ans = []
+        if root is None:
+            return 0
+        depth = 0
+        for child in root.children:
+            depth = max(depth, self.maxDepth(child))
+            ans.append(self.maxDepth(child))    
+        print(ans)
+        return max(ans)
 
 
-
-if __name__ == '__main__':
-    solution = Solution()
-    print(solution.smallestRangeI([1], 0))  # 0
-    print(solution.smallestRangeI([0, 10], 2))  # 6
-    print(solution.smallestRangeI([1, 3, 6], 3))  # 0
+# if __name__ == '__main__':
+#     solution = Solution()
+#     print(solution.maxDepth([1], 0))  # 0
