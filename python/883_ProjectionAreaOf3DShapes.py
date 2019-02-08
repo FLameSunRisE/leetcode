@@ -11,9 +11,6 @@ class Solution:
                 tmpXZ = max(tmpXZ,grid[i][j])
             yz += tmpYZ
             xz += tmpXZ
-        # print('xy : ' +str(xy))
-        # print('yz : ' +str(yz))
-        # print('xz : ' +str(xz))
         return xy+yz+xz
 
 if __name__ == '__main__':
