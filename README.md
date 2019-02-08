@@ -5,7 +5,8 @@
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/) | Array | Easy | [python](/python/509_FibonacciNumber.py) | O\(N\) | O\(1\) |
 | 561 | array-partition-i | Array | Easy | [python](/python/561_ArrayPartitionI.py) | O\(N\) | O\(N\) |
-| 589 | [n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | Tree | Easy | python | O\(N\) | O\(1\) |
+| 589 | [n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | Tree | Easy | [python](/python/589_NaryTreePreorderTraversal.py) | O\(N\) | O\(1\) |
+| 590 | [n-ary-tree-postorder-traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Tree | Eaay | [python](/python/590_N-aryTreePostorderTraversal.py) | O\(N\) | O\(1\) |
 | 595 | [big-countries](https://leetcode.com/problems/big-countries/) | SQL | Easy | [SQL](/python/595_BigCountries.sql) |  |  |
 | 617 | [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/) | Tree | Easy | [Python](/python/617_MergeTwoBinaryTrees.py) | O\(N\) | O\(logN\) |
 | 627 | [swap-salary](https://leetcode.com/problems/swap-salary/) | SQL | Easy | [SQL](/python/627_SwapSalary.SQL) |  |  |
@@ -17,7 +18,9 @@
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
 | 852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_PeakIndexInAMountainArray.py) | O\(logN\) | O\(1\) |
+| 883 | [projection-area-of-3d-shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | Math | Easy | [Python](/python/883_ProjectionAreaOf3DShapes.py) | O\(N^2\) | O\(1\) |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
+| 908 | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | Math | Easy | [python](/python/908_SmallestRangeI.py) | O\(N\) | O\(1\) |
 | 922 | [sort-array-by-parity-ii](https://leetcode.com/problems/sort-array-by-parity-ii/) | Array, Sort | Easy | [python](/python/922_SortArrayByParityII.py) | O\(N\) | O\(N\) |
 | 929 | [unique-email-addresses](https://leetcode.com/problems/unique-email-addresses/ "unique-email-addresses") | String | Easy | [python](/python/929_UniqueEmailAddresses.py) | O\(N\) | O\(N\) |
 | 933 | [number-of-recent-calls](https://leetcode.com/problems/number-of-recent-calls/) | Queue | Easy | [Python](/python/933_NumberOfRecentCalls.py) | O\(N\) | O\(N\) |
