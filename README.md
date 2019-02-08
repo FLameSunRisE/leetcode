@@ -19,6 +19,7 @@
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
 | 852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_PeakIndexInAMountainArray.py) | O\(logN\) | O\(1\) |
+| 867 | [transpose-matrix](https://leetcode.com/problems/transpose-matrix/) | Array | Easy | [python](/python/867_TransposeMatrix.py) | O\(N^2\) | O\(N^2\) |
 | 883 | [projection-area-of-3d-shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | Math | Easy | [Python](/python/883_ProjectionAreaOf3DShapes.py) | O\(N^2\) | O\(1\) |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
 | 908 | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | Math | Easy | [python](/python/908_SmallestRangeI.py) | O\(N\) | O\(1\) |
