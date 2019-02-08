@@ -7,15 +7,14 @@ class Node:
 """
 class Solution:
     def maxDepth(self, root: 'Node') -> 'int':
-        ans = []
         if root is None:
             return 0
         depth = 0
         for child in root.children:
-            depth = max(depth, self.maxDepth(child))
-            ans.append(self.maxDepth(child))    
-        print(ans)
-        return max(ans)
+            print ('child : '+str(child.val)+', depth : '+str(depth))
+            depth = max(depth, self.maxDepth(child)) 
+        print(depth)
+        return depth+1
 
 
 # if __name__ == '__main__':
