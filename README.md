@@ -4,6 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/) | Array | Easy | [python](/python/509_FibonacciNumber.py) | O\(N\) | O\(1\) |
+| 559 | [maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | Tree, DFS, BFS | Easy | [python](/python/559_MaximumDepthOfN-aryTree.py) | O\(N\) | O\(N\) |
 | 561 | array-partition-i | Array | Easy | [python](/python/561_ArrayPartitionI.py) | O\(N\) | O\(N\) |
 | 589 | [n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | Tree | Easy | [python](/python/589_NaryTreePreorderTraversal.py) | O\(N\) | O\(1\) |
 | 590 | [n-ary-tree-postorder-traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Tree | Eaay | [python](/python/590_N-aryTreePostorderTraversal.py) | O\(N\) | O\(1\) |
