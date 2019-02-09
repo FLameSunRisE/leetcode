@@ -12,9 +12,9 @@ class Solution:
             for i in range(len(frags)):
                 ans[".".join(frags[i:])] += count
         for domain , count in ans.items():
-            output.append("{} {}".format(domain, count))
+            output.append("{} {}".format(count,domain ))
         return output
-        
+
 if __name__ == '__main__':
     solution = Solution()
     print(solution.subdomainVisits(["9001 discuss.leetcode.com"]))
