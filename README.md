@@ -19,8 +19,8 @@
 | 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
-| 811 | [subdomain-visit-count](https://leetcode.com/problems/subdomain-visit-count/) | Hash Table | Easy | python | O\(N\) | O\(N\) |
-| 821 | [shortest-distance-to-a-character](https://leetcode.com/problems/shortest-distance-to-a-character/) | String | Easy | python | O\(N\) | O\(N\) |
+| 811 | [subdomain-visit-count](https://leetcode.com/problems/subdomain-visit-count/) | Hash Table | Easy | [python](/python/811_SubdomainVisitCount.py) | O\(N\) | O\(N\) |
+| 821 | [shortest-distance-to-a-character](https://leetcode.com/problems/shortest-distance-to-a-character/) | String | Easy | [python](/python/821_ShortestDistanceToACharacter.py) | O\(N\) | O\(N\) |
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
 | 852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_PeakIndexInAMountainArray.py) | O\(logN\) | O\(1\) |
 | 867 | [transpose-matrix](https://leetcode.com/problems/transpose-matrix/) | Array | Easy | [python](/python/867_TransposeMatrix.py) | O\(N^2\) | O\(N^2\) |
