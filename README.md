@@ -1,10 +1,8 @@
-
----
-
 # Python Solutions for Leetcode
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 344 | [reverse-string](https://leetcode.com/problems/reverse-string/) | Two pointers, string | Easy | [python](/python/344_ReverseString.py) | O\(logN\) | O\(1\) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/) | Array | Easy | [python](/python/509_FibonacciNumber.py) | O\(N\) | O\(1\) |
 | 557 | [reverse-words-in-a-string-iii](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | String | Easy | [python](/python/557_ReverseWordsInAStringIII.py) | O\(N\) | O\(N\) |
