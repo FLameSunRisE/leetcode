@@ -1,43 +1,24 @@
+import collections
 class Solution:
-    def subdomainVisits(self, cpdomains):
-        """
-        :type cpdomains: List[str]
-        :rtype: List[str]
-        """
+    def subdomainVisits(self, cpdomains: 'List[str]') -> 'List[str]':
+        print(cpdomains)
         ans = collections.Counter()
-        for domain in cpdomains:
-            count, domain = domain.split()
+        # ans = []
+        output = []
+        for word in cpdomains:
+            count, domain = word.split()
             count = int(count)
             frags = domain.split('.')
             for i in range(len(frags)):
                 ans[".".join(frags[i:])] += count
-                ans += ax + by
-
-        return ["{} {}".format(ct, dom) for dom, ct in ans.items()]
-    
-    
-#         dominList = []               
-#         dataList = []    
-#         for x in cpdomains:
-#             tmpList = x.split(" ",1)
-#             num = tmpList[0]
-#             domain = tmpList[1]
-#             splitDomList = domain.split(".")
-#             print(splitDomList)
-#             reDomList = list(reversed(splitDomList))
-#             print (reDomList)
-#             for y in reDomList:
-#                 try:
-#                     print(dominList.index(y))
-#                 except ValueError:
-#                     print('ValueError')
-              
-            
-#         return [""]
-
+        for domain , count in ans.items():
+            output.append("{} {}".format(domain, count))
+        return output
+        
 if __name__ == '__main__':
     solution = Solution()
-    print(solution.subdomainVisits([[1,2,3],[4,5,6],[7,8,9]]))
-    #  [[1,4,7],[2,5,8],[3,6,9]]
-    print(solution.subdomainVisits([[1,2,3],[4,5,6]]))
-    #  [[1,4],[2,5],[3,6]]
+    print(solution.subdomainVisits(["9001 discuss.leetcode.com"]))
+    #  ["9001 discuss.leetcode.com", "9001 leetcode.com", "9001 com"]
+    print(solution.subdomainVisits(
+        ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]))
+    #  ["901 mail.com","50 yahoo.com","900 google.mail.com","5 wiki.org","5 org","1 intel.mail.com","951 com"]
