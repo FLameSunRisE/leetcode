@@ -10,8 +10,6 @@ class Solution:
             s[min], s[max] = s[max], s[min]
             min += 1
             max -= 1
-        
-        print(s)
         return 
 
 
