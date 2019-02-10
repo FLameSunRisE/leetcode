@@ -31,7 +31,6 @@ class Solution:
 if __name__ == '__main__':
     solution = Solution()
     inputList = [1, 2,3,4,5]
-    print(solution.middleNode(node1))
     print(solution.middleNode(solution.listToListNode(inputList)))
     # Output: Node 3 from this list (Serialization: [3,4,5])
     # The returned node has value 3.  (The judge's serialization of this node is [3,4,5]).
