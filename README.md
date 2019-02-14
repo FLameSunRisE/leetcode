@@ -19,7 +19,7 @@
 | 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
-| 806 | [number-of-lines-to-write-string](https://leetcode.com/problems/number-of-lines-to-write-string/) | String  | Easy | [python](/python/806_NumberOfLinesToWriteString.py) | O\(N\) | O\(1\) |
+| 806 | [number-of-lines-to-write-string](https://leetcode.com/problems/number-of-lines-to-write-string/) | String | Easy | [python](/python/806_NumberOfLinesToWriteString.py) | O\(N\) | O\(1\) |
 | 811 | [subdomain-visit-count](https://leetcode.com/problems/subdomain-visit-count/) | Hash Table | Easy | [python](/python/811_SubdomainVisitCount.py) | O\(N\) | O\(N\) |
 | 821 | [shortest-distance-to-a-character](https://leetcode.com/problems/shortest-distance-to-a-character/) | String | Easy | [python](/python/821_ShortestDistanceToACharacter.py) | O\(N\) | O\(N\) |
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
@@ -27,6 +27,7 @@
 | 867 | [transpose-matrix](https://leetcode.com/problems/transpose-matrix/) | Array | Easy | [python](/python/867_TransposeMatrix.py) | O\(N^2\) | O\(N^2\) |
 | 876 | [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/) | Linked List | Easy | [python](/python/876_MiddleOfTheLinkedList.py) | O\(N\) | O\(N\) |
 | 883 | [projection-area-of-3d-shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | Math | Easy | [Python](/python/883_ProjectionAreaOf3DShapes.py) | O\(N^2\) | O\(1\) |
+| 897 | [increasing-order-search-tree/](https://leetcode.com/problems/increasing-order-search-tree/) | Tree, DFS | Easy |  |  |  |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
 | 908 | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | Math | Easy | [python](/python/908_SmallestRangeI.py) | O\(N\) | O\(1\) |
 | 922 | [sort-array-by-parity-ii](https://leetcode.com/problems/sort-array-by-parity-ii/) | Array, Sort | Easy | [python](/python/922_SortArrayByParityII.py) | O\(N\) | O\(N\) |
