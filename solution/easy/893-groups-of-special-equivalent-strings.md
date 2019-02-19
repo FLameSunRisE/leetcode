@@ -12,7 +12,7 @@ Return the number of groups of special-equivalent strings from`A`.
 
 ## Solution:
 
-這題看完第一個想法是用set function，但在之前需先進行swapping，所以須先區分even 和 odd 的字母再來進行排序，最後就可以透過set找出答案了。
+The first idea after reading this question is to use set function, but you need to do swapping before, so you must first distinguish the letters of even and odd and then sort them. Finally, you can find the answer through set.
 
 ## Code:
 
