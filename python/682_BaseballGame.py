@@ -5,14 +5,11 @@ class Solution:
             if op is 'C':
                 sumList = sumList[:-1]
             elif op is 'D':
-                tmp = sumList[-1]*2
-                sumList.append(tmp)
+                sumList.append(sumList[-1]*2)
             elif op is '+':
-                tmp = sumList[-1]+sumList[-2]
-                sumList.append(tmp)
+                sumList.append(sumList[-1]+sumList[-2])
             else:
                 sumList.append(int(op))
-            
         return sum(sumList)
 
 def main():
