@@ -1,13 +1,19 @@
 class Solution:
     def uncommonFromSentences(self, A: 'str', B: 'str') -> 'List[str]':
-        
-        return A
+        s = A + ' '+B
+        s = s.split()
+        ans = []
+        for word in set(s):
+            if s.count(word)==1:
+                ans.append(word)
+        return ans
 
 
 def main():
-    input = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
-    # Output: ["Alaska", "Dad"]
-    print(Solution().isToeplitzMatrix(input))
+    A = "this apple is sweet"
+    B = "this apple is sour"
+    # Output: ["sweet","sour"]
+    print(Solution().uncommonFromSentences(A,B))
 
 if __name__ == '__main__':
     main()
