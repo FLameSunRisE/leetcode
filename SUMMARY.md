@@ -8,4 +8,5 @@
     * [500-Keyboard Row](solution/easy/500-keyboard-row.md)
     * [766-Toeplitz Matrix](solution/easy/766-toeplitz-matrix.md)
     * [884-Uncommon Words from Two Sentences](solution/easy/884-uncommon-words-from-two-sentences.md)
+    * [682-Baseball Game](solution/easy/682-baseball-game.md)
 
