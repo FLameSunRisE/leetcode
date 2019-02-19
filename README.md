@@ -1,4 +1,4 @@
-# Python Solutions for Leetcode
+# [python/766\_ToeplitzMatrix.py](/python/766_ToeplitzMatrix.py)Python Solutions for Leetcode
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
