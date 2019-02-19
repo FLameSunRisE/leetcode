@@ -29,7 +29,7 @@
 | 872 | [leaf-similar-trees/](https://leetcode.com/problems/leaf-similar-trees/) | Tree, DFS | Easy | [python](/python/872_LeafSimilarTrees.py) | O\(N\) | O\(1\) |
 | 876 | [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/) | Linked List | Easy | [python](/python/876_MiddleOfTheLinkedList.py) | O\(N\) | O\(N\) |
 | 883 | [projection-area-of-3d-shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | Math | Easy | [Python](/python/883_ProjectionAreaOf3DShapes.py) | O\(N^2\) | O\(1\) |
-| 893 | [groups-of-special-equivalent-strings/](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | String | Easy | Python | O\(N\) | O\(N\) |
+| 893 | [groups-of-special-equivalent-strings/](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | String | Easy | [Python](/solution/easy/893-groups-of-special-equivalent-strings.md) | O\(N\) | O\(N\) |
 | 897 | [increasing-order-search-tree/](https://leetcode.com/problems/increasing-order-search-tree/) | Tree, DFS | Easy |  |  |  |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
 | 908 | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | Math | Easy | [python](/python/908_SmallestRangeI.py) | O\(N\) | O\(1\) |
