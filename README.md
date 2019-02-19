@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 344 | [reverse-string](https://leetcode.com/problems/reverse-string/) | Two pointers, string | Easy | [python](/python/344_ReverseString.py) | O\(logN\) | O\(1\) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
-| 463 | [island-perimeter](https://leetcode.com/problems/island-perimeter/) | Hash Table | Easy | python  | O\(N^2\) | O\(1\) |
+| 463 | [island-perimeter](https://leetcode.com/problems/island-perimeter/) | Hash Table | Easy | [python](/python/463_IslandPerimeter.py) | O\(N^2\) | O\(1\) |
 | 476 | [number-complement](https://leetcode.com/problems/number-complement/) | Bit Manipulation | Easy | [python](/python/476_NumberComplement.py) | O\(N\) | O\(N\) |
 | 500 | [keyboard-row](https://leetcode.com/problems/keyboard-row/) | Hash Table | Easy | [python](/python/500_KeyboardRow.py) | O\(N\) | O\(N\) |
 | 509 | [fibonacci-number](https://leetcode.com/problems/fibonacci-number/) | Array | Easy | [python](/python/509_FibonacciNumber.py) | O\(N\) | O\(1\) |
@@ -17,6 +17,7 @@
 | 617 | [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/) | Tree | Easy | [Python](/python/617_MergeTwoBinaryTrees.py) | O\(N\) | O\(logN\) |
 | 627 | [swap-salary](https://leetcode.com/problems/swap-salary/) | SQL | Easy | [SQL](/python/627_SwapSalary.SQL) |  |  |
 | 657 | [robot-return-to-origin](https://leetcode.com/problems/robot-return-to-origin/) | String | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
+| 669 | [trim-a-binary-search-tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | python | [Easy](/python/669_TrimaBinarySearchTree.py) | python | O\(N\) | O\(1\) |
 | 682 | [baseball-game](https://leetcode.com/problems/baseball-game/) | Stack | Easy | [python](/python/682_BaseballGame.py) | O\(N\) | O\(N\) |
 | 700 | [search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Tree | Easy | [Python](/python/700_SearchInABinarySearchTree.py) | O\(logN\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
