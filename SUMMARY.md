@@ -5,5 +5,5 @@
   * [Easy](solution/easy.md)
     * [872-Leaf-Similar Trees](solution/easy/872leaf-similar-trees.md)
     * [893-Groups of Special-Equivalent Strings](solution/easy/893-groups-of-special-equivalent-strings.md)
-    * 500-Keyboard Row
+    * [500-Keyboard Row](solution/easy/500-keyboard-row.md)
 
