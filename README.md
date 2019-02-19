@@ -1,4 +1,4 @@
-# [python/766\_ToeplitzMatrix.py](/python/766_ToeplitzMatrix.py)Python Solutions for Leetcode
+# Python Solutions for Leetcode
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -19,7 +19,7 @@
 | 700 | [search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Tree | Easy | [Python](/python/700_SearchInABinarySearchTree.py) | O\(logN\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
 | 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
-| 766 | [toeplitz-matrix/](https://leetcode.com/problems/toeplitz-matrix/) | Array | Easy | python | O\(N^2\) | O\(1\) |
+| 766 | [toeplitz-matrix/](https://leetcode.com/problems/toeplitz-matrix/) | Array | Easy | [python](/python/766_ToeplitzMatrix.py) | O\(N^2\) | O\(1\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
 | 806 | [number-of-lines-to-write-string](https://leetcode.com/problems/number-of-lines-to-write-string/) | String | Easy | [python](/python/806_NumberOfLinesToWriteString.py) | O\(N\) | O\(1\) |
