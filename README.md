@@ -16,6 +16,7 @@
 | 617 | [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/) | Tree | Easy | [Python](/python/617_MergeTwoBinaryTrees.py) | O\(N\) | O\(logN\) |
 | 627 | [swap-salary](https://leetcode.com/problems/swap-salary/) | SQL | Easy | [SQL](/python/627_SwapSalary.SQL) |  |  |
 | 657 | [robot-return-to-origin](https://leetcode.com/problems/robot-return-to-origin/) | String | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
+| 682 | [baseball-game](https://leetcode.com/problems/baseball-game/) | Stack | Easy | [python](/python/682_BaseballGame.py) | O\(N\) | O\(N\) |
 | 700 | [search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Tree | Easy | [Python](/python/700_SearchInABinarySearchTree.py) | O\(logN\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
 | 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
@@ -31,7 +32,7 @@
 | 872 | [leaf-similar-trees](https://leetcode.com/problems/leaf-similar-trees/) | Tree, DFS | Easy | [python](/python/872_LeafSimilarTrees.py) | O\(N\) | O\(1\) |
 | 876 | [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/) | Linked List | Easy | [python](/python/876_MiddleOfTheLinkedList.py) | O\(N\) | O\(N\) |
 | 883 | [projection-area-of-3d-shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | Math | Easy | Python | O\(N^2\) | O\(1\) |
-| 884 | [uncommon-words-from-two-sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | Hash Table | Easy  | python | O\(N\) | O\(N\) |
+| 884 | [uncommon-words-from-two-sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | Hash Table | Easy | python | O\(N\) | O\(N\) |
 | 893 | [groups-of-special-equivalent-strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | String | Easy | [Python](/solution/easy/893-groups-of-special-equivalent-strings.md) | O\(N\) | O\(N\) |
 | 897 | [increasing-order-search-tree](https://leetcode.com/problems/increasing-order-search-tree/) | Tree, DFS | Easy |  |  |  |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
