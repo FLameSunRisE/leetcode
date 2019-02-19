@@ -12,15 +12,15 @@ Return`true`if and only if the two given trees with head nodes`root1`and`root2`a
 
 ## Solution :
 
-要找到樹葉，也就是DFS問題，因此可以用遞迴解。
+To find the leaves, which is the DFS problem, you can use the recursive solution.
 
-Step1: 用DFS去走整個二元樹
+Step1: Use DFS to go through the entire binary tree
 
-Step2: 若遇到Root為None時，表示沒有樹葉
+Step2: If Root is None, it means no leaves
 
-Step3: 遇到root.left 和 root.right 為None時，表示此root為樹葉，因此return其value
+Step3: When root.left and root.right are set to None, this root is the leaf, so return its value
 
-Step4: 將左邊與右邊加起來就是經過樹葉的list
+Step4: Adding the left and right sides is a list of leaves
 
 ## Code:
 
