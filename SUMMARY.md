@@ -9,4 +9,5 @@
     * [766-Toeplitz Matrix](solution/easy/766-toeplitz-matrix.md)
     * [884-Uncommon Words from Two Sentences](solution/easy/884-uncommon-words-from-two-sentences.md)
     * [682-Baseball Game](solution/easy/682-baseball-game.md)
+    * [620-Not Boring Movies](solution/easy/620-not-boring-movies.md)
 
