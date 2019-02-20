@@ -15,6 +15,7 @@
 | 590 | [n-ary-tree-postorder-traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Tree | Eaay | [python](/python/590_N-aryTreePostorderTraversal.py) | O\(N\) | O\(1\) |
 | 595 | [big-countries](https://leetcode.com/problems/big-countries/) | SQL | Easy | [SQL](/python/595_BigCountries.sql) |  |  |
 | 617 | [merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/) | Tree | Easy | [Python](/python/617_MergeTwoBinaryTrees.py) | O\(N\) | O\(logN\) |
+| 620 | [not-boring-movies](https://leetcode.com/problems/not-boring-movies/) | SQL | Easy | [SQL](/solution/easy/620-not-boring-movies.md) |  |  |
 | 627 | [swap-salary](https://leetcode.com/problems/swap-salary/) | SQL | Easy | [SQL](/python/627_SwapSalary.SQL) |  |  |
 | 657 | [robot-return-to-origin](https://leetcode.com/problems/robot-return-to-origin/) | String | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 669 | [trim-a-binary-search-tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | python | [Easy](/python/669_TrimaBinarySearchTree.py) | python | O\(N\) | O\(1\) |
