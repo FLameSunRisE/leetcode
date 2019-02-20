@@ -10,4 +10,5 @@
     * [884-Uncommon Words from Two Sentences](solution/easy/884-uncommon-words-from-two-sentences.md)
     * [682-Baseball Game](solution/easy/682-baseball-game.md)
     * [620-Not Boring Movies](solution/easy/620-not-boring-movies.md)
+    * [868-Binary Gap](solution/easy/868-binary-gap.md)
 
