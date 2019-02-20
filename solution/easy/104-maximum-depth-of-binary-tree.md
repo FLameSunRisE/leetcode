@@ -1,32 +1,26 @@
 # 104. Maximum Depth of Binary Tree
 
-Given a**non-empty** array of integers, every element appears_twice_except for one. Find that single one.
+Given a binary tree, find its maximum depth.
 
-**Note:**
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 
-Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+**Note:** A leaf is a node with no children.
 
-**Example 1:**
+**Example:**
 
-```
-Input:
- [2,2,1]
-
-Output:
- 1
+Given binary tree`[3,9,20,null,null,15,7]`,
 
 ```
-
-**Example 2:**
-
+    3
+   / \
+  9  20
+    /  \
+   15   7
 ```
-Input:
- [4,1,2,1,2]
 
-Output:
- 4
-solution:
-```
+return its depth = 3.
+
+## Solution:
 
 Recursive
 

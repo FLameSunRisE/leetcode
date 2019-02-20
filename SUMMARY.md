@@ -13,4 +13,5 @@
     * [868-Binary Gap](solution/easy/868-binary-gap.md)
     * [575-Distribute Candies](solution/easy/575-distribute-candies.md)
     * [104-Maximum Depth of Binary Tree](solution/easy/104-maximum-depth-of-binary-tree.md)
+    * [136-Single Number](solution/easy/136-single-number.md)
 
