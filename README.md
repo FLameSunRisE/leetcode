@@ -2,6 +2,7 @@
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 136 | [single-number](https://leetcode.com/problems/single-number/) | Hash Table, Bit Manipulation | Easy | [solution](/python/136_SingleNumber.py) / [python](/python/136_SingleNumber.py) | O\(N\) | O\(1\) |
 | 344 | [reverse-string](https://leetcode.com/problems/reverse-string/) | Two pointers, string | Easy | [python](/python/344_ReverseString.py) | O\(logN\) | O\(1\) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 463 | [island-perimeter](https://leetcode.com/problems/island-perimeter/) | Hash Table | Easy | [python](/python/463_IslandPerimeter.py) | O\(N^2\) | O\(1\) |
