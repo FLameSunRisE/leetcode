@@ -11,7 +11,7 @@
 | 557 | [reverse-words-in-a-string-iii](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | String | Easy | [python](/python/557_ReverseWordsInAStringIII.py) | O\(N\) | O\(N\) |
 | 559 | [maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | Tree, DFS, BFS | Easy | [python](/python/559_MaximumDepthOfN-aryTree.py) | O\(N\) | O\(N\) |
 | 561 | [array-partition-i](https://leetcode.com/problems/array-partition-i/) | Array | Easy | [python](/python/561_ArrayPartitionI.py) | O\(N\) | O\(N\) |
-| 575 | [distribute-candies/submissions](https://leetcode.com/problems/distribute-candies/submissions/) | Hah Table | Easy | python | O\(N\) | O\(1\) |
+| 575 | [distribute-candies/submissions](https://leetcode.com/problems/distribute-candies/submissions/) | Hah Table | Easy | [solution ](/solution/easy/575-distribute-candies.md)/ python | O\(N\) | O\(1\) |
 | 589 | [n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | Tree | Easy | [python](/python/589_NaryTreePreorderTraversal.py) | O\(N\) | O\(1\) |
 | 590 | [n-ary-tree-postorder-traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Tree | Eaay | [python](/python/590_N-aryTreePostorderTraversal.py) | O\(N\) | O\(1\) |
 | 595 | [big-countries](https://leetcode.com/problems/big-countries/) | SQL | Easy | [SQL](/python/595_BigCountries.sql) |  |  |
