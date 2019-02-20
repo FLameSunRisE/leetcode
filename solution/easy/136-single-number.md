@@ -1,6 +1,6 @@
 # 136. Single Number
 
-Given a**non-empty** array of integers, every element appears_twice_except for one. Find that single one.
+Given a**non-empty** array of integers, every element appears\_twice\_except for one. Find that single one.
 
 **Note:**
 
@@ -14,7 +14,6 @@ Input:
 
 Output:
  1
-
 ```
 
 **Example 2:**
@@ -27,14 +26,18 @@ Output:
  4
 ```
 
-Solution:
+## Solution:
 
+Using set\(\) find different type and check string count = 1  that return.
 
+## Code:
 
-Code:
-
-```
-
+```py
+class Solution:
+    def singleNumber(self, nums: 'List[int]') -> 'int':
+        for i in set(nums):
+            if nums.count(i) == 1:
+                return i
 ```
 
 
