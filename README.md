@@ -11,6 +11,7 @@
 | 557 | [reverse-words-in-a-string-iii](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | String | Easy | [python](/python/557_ReverseWordsInAStringIII.py) | O\(N\) | O\(N\) |
 | 559 | [maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | Tree, DFS, BFS | Easy | [python](/python/559_MaximumDepthOfN-aryTree.py) | O\(N\) | O\(N\) |
 | 561 | [array-partition-i](https://leetcode.com/problems/array-partition-i/) | Array | Easy | [python](/python/561_ArrayPartitionI.py) | O\(N\) | O\(N\) |
+| 575 | [distribute-candies/submissions](https://leetcode.com/problems/distribute-candies/submissions/) | Hah Table | Easy | python | O\(N\) | O\(1\) |
 | 589 | [n-ary-tree-preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | Tree | Easy | [python](/python/589_NaryTreePreorderTraversal.py) | O\(N\) | O\(1\) |
 | 590 | [n-ary-tree-postorder-traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Tree | Eaay | [python](/python/590_N-aryTreePostorderTraversal.py) | O\(N\) | O\(1\) |
 | 595 | [big-countries](https://leetcode.com/problems/big-countries/) | SQL | Easy | [SQL](/python/595_BigCountries.sql) |  |  |
@@ -32,7 +33,7 @@
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
 | 852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_PeakIndexInAMountainArray.py) | O\(logN\) | O\(1\) |
 | 867 | [transpose-matrix](https://leetcode.com/problems/transpose-matrix/) | Array | Easy | [python](/python/867_TransposeMatrix.py) | O\(N^2\) | O\(N^2\) |
-| 868 | [binary-gap/solution](https://leetcode.com/problems/binary-gap/solution/) | Math | Easy |  [solution ](/solution/easy/868-binary-gap.md)/ python | O\(N\) | O\(N\) |
+| 868 | [binary-gap/solution](https://leetcode.com/problems/binary-gap/solution/) | Math | Easy | [solution ](/solution/easy/868-binary-gap.md)/ python | O\(N\) | O\(N\) |
 | 872 | [leaf-similar-trees](https://leetcode.com/problems/leaf-similar-trees/) | Tree, DFS | Easy | [python](/python/872_LeafSimilarTrees.py) | O\(N\) | O\(1\) |
 | 876 | [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/) | Linked List | Easy | [python](/python/876_MiddleOfTheLinkedList.py) | O\(N\) | O\(N\) |
 | 883 | [projection-area-of-3d-shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | Math | Easy | Python | O\(N^2\) | O\(1\) |
