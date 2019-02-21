@@ -5,6 +5,7 @@
 | 104 | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree, DFS | Easy | [solution](/solution/easy/104-maximum-depth-of-binary-tree.md) /[ python](/python/104_MaximumDepthofBinaryTree.py) | O\(N\) | O\(1\) |
 | 136 | [single-number](https://leetcode.com/problems/single-number/) | Hash Table, Bit Manipulation | Easy | [solution](/python/136_SingleNumber.py) / [python](/python/136_SingleNumber.py) | O\(N\) | O\(1\) |
 | 344 | [reverse-string](https://leetcode.com/problems/reverse-string/) | Two pointers, string | Easy | [python](/python/344_ReverseString.py) | O\(logN\) | O\(1\) |
+| 412 | [fizz-buzz/solution](https://leetcode.com/problems/fizz-buzz/solution/) | String | Easy | python | O\(N\) | O\(1\) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 463 | [island-perimeter](https://leetcode.com/problems/island-perimeter/) | Hash Table | Easy | [python](/python/463_IslandPerimeter.py) | O\(N^2\) | O\(1\) |
 | 476 | [number-complement](https://leetcode.com/problems/number-complement/) | Bit Manipulation | Easy | [python](/python/476_NumberComplement.py) | O\(N\) | O\(N\) |
