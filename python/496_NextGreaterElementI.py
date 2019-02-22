@@ -23,7 +23,5 @@ def main():
     print(Solution().nextGreaterElement([3, 1, 5, 7, 9, 2, 6],[1, 2, 3, 5, 6, 7, 9, 11]))
     # Output:  [5,2,6,9,11,3,7]
 
-
-
 if __name__ == '__main__':
     main()
