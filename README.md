@@ -40,6 +40,7 @@
 | 806 | [number-of-lines-to-write-string](https://leetcode.com/problems/number-of-lines-to-write-string/) | String | Easy | [python](/python/806_NumberOfLinesToWriteString.py) | O\(N\) | O\(1\) |
 | 811 | [subdomain-visit-count](https://leetcode.com/problems/subdomain-visit-count/) | Hash Table | Easy | [python](/python/811_SubdomainVisitCount.py) | O\(N\) | O\(N\) |
 | 821 | [shortest-distance-to-a-character](https://leetcode.com/problems/shortest-distance-to-a-character/) | String | Easy | [python](/python/821_ShortestDistanceToACharacter.py) | O\(N\) | O\(N\) |
+| 824 | [goat-latin](https://leetcode.com/problems/goat-latin/) | String | Easy | [python](/python/824_GoatLatin.py) | O\(N\) | O\(N\) |
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
 | 852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_PeakIndexInAMountainArray.py) | O\(logN\) | O\(1\) |
 | 867 | [transpose-matrix](https://leetcode.com/problems/transpose-matrix/) | Array | Easy | [python](/python/867_TransposeMatrix.py) | O\(N^2\) | O\(N^2\) |
