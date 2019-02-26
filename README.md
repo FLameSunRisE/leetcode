@@ -4,6 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 104 | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree, DFS | Easy | [solution](/solution/easy/104-maximum-depth-of-binary-tree.md) /[ python](/python/104_MaximumDepthofBinaryTree.py) | O\(N\) | O\(1\) |
 | 136 | [single-number](https://leetcode.com/problems/single-number/) | Hash Table, Bit Manipulation | Easy | [solution](/python/136_SingleNumber.py) / [python](/python/136_SingleNumber.py) | O\(N\) | O\(1\) |
+| 226 | [invert-binary-tree](https://leetcode.com/problems/invert-binary-tree/) | Tree | Easy | [python](/python/226_InvertBinaryTree.py) |  |  |
 | 344 | [reverse-string](https://leetcode.com/problems/reverse-string/) | Two pointers, string | Easy | [python](/python/344_ReverseString.py) | O\(logN\) | O\(1\) |
 | 412 | [fizz-buzz/solution](https://leetcode.com/problems/fizz-buzz/solution/) | String | Easy | [python](/python/412_FizzBuzz.py) | O\(N\) | O\(1\) |
 | 429 | [n-ary-tree-level-order-traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | Tree, BFS | Easy | [python](/python/429_NaryTreeLevelOrderTraversal.py) | O\(N\) | O\(N\) |
@@ -59,6 +60,7 @@
 | 961 | [n-repeated-element-in-size-2n-array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Hash Table | Easy | [python](/python/961_N-RepeatedElementInSize2NArray.py) | O\(N\) | O\(N\) |
 | 965 | [univalued-binary-tree](https://leetcode.com/problems/univalued-binary-tree/) | Tree | Easy | [python](/python/965_UnivaluedBinaryTree.py) | O\(N\) | O\(N\) |
 | 973 | [k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Math, Divide and Conquer, Sort | Easy | [python](/python/973_KClosestPointsToOrigin.py) | O\(N\) | O\(N\) |
+| 976 | [largest-perimeter-triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | Array , Math | Easy | python | O\(NlogN\) | O\(N\) |
 | 977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Array,Two Pointer,Sort | Easy | [python](/python/977_SquaresofASortedArray.py) | O\(NlogN\) | O\(N\) |
 
 
