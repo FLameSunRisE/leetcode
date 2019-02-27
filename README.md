@@ -35,7 +35,7 @@
 | 682 | [baseball-game](https://leetcode.com/problems/baseball-game/) | Stack | Easy | [python](/python/682_BaseballGame.py) | O\(N\) | O\(N\) |
 | 693 | [binary-number-with-alternating-bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | Bit Manipulation | Easy | [python](/python/693_BinaryNumberwithAlternatingBits.py) | O\(N\) | O\(1\) |
 | 700 | [search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Tree | Easy | [Python](/python/700_SearchInABinarySearchTree.py) | O\(logN\) | O\(1\) |
-| 704 | [binary-search](https://leetcode.com/problems/binary-search/) | Binary Search | Easy | python |  |  |
+| 704 | [binary-search](https://leetcode.com/problems/binary-search/) | Binary Search | Easy | [python](/python/704_BinarySearch.py) | O\(logn\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
 | 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
 | 762 | [prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Bit Manipulation | Easy | [python](/python/762_PrimeNumberofBitsinBinaryRepresentation.py) | O\(N\) | O\(1\) |
