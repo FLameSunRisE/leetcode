@@ -38,7 +38,8 @@
 | 704 | [binary-search](https://leetcode.com/problems/binary-search/) | Binary Search | Easy | [python](/python/704_BinarySearch.py) | O\(logn\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
 | 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
-| 762 | [prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Bit Manipulation | Easy | [python](/python/762_PrimeNumberofBitsinBinaryRepresentation.py) | O\(N\) | O\(1\) |
+| 744 | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)62 | Binary Search | Easy | [python](/python/744_FindSmallestLetterGreaterThanTarget.py) | O\(N\) | O\(1\) |
+|  | [prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Bit Manipulation | Easy | [python](/python/762_PrimeNumberofBitsinBinaryRepresentation.py) | O\(N\) | O\(1\) |
 | 766 | [toeplitz-matrix](https://leetcode.com/problems/toeplitz-matrix/) | Array | Easy | [python](/python/766_ToeplitzMatrix.py) | O\(N^2\) | O\(1\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
