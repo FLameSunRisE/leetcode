@@ -2,7 +2,7 @@
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 35 | [search-insert-position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search | Easy | python | O\(logN\) | O\(1\) |
+| 35 | [search-insert-position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search | Easy | [python](/python/35_SearchInsertPosition.py) | O\(logN\) | O\(1\) |
 | 104 | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree, DFS | Easy | [solution](/solution/easy/104-maximum-depth-of-binary-tree.md) /[ python](/python/104_MaximumDepthofBinaryTree.py) | O\(N\) | O\(1\) |
 | 136 | [single-number](https://leetcode.com/problems/single-number/) | Hash Table, Bit Manipulation | Easy | [solution](/python/136_SingleNumber.py) / [python](/python/136_SingleNumber.py) | O\(N\) | O\(1\) |
 | 167 | [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Array, Two Pointers, Binary Search | Easy | [python](/python/167_TwoSumII-Inputarrayissorted.py) | O\(logn\) | O\(n\) |
@@ -13,8 +13,10 @@
 | 367 | [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square/) | Math, Binary Search | Easy | [python](/python/637_AverageofLevelsinBinaryTree.py) | O\(logN\) | O\(1\) |
 | 412 | [fizz-buzz/solution](https://leetcode.com/problems/fizz-buzz/solution/) | String | Easy | [python](/python/412_FizzBuzz.py) | O\(N\) | O\(1\) |
 | 429 | [n-ary-tree-level-order-traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | Tree, BFS | Easy | [python](/python/429_NaryTreeLevelOrderTraversal.py) | O\(N\) | O\(N\) |
+| 441 | [arranging-coins](https://leetcode.com/problems/arranging-coins/) | Math,Binary Search | Easy | [python](/python/441_ArrangingCoins.py) | O\(logN\) | O\(1\) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
 | 463 | [island-perimeter](https://leetcode.com/problems/island-perimeter/) | Hash Table | Easy | [python](/python/463_IslandPerimeter.py) | O\(N^2\) | O\(1\) |
+| 475 | [heaters](https://leetcode.com/problems/heaters/) | Binary Search | Easy | python | O\(\) | O\(\) |
 | 476 | [number-complement](https://leetcode.com/problems/number-complement/) | Bit Manipulation | Easy | [python](/python/476_NumberComplement.py) | O\(N\) | O\(N\) |
 | 496 | [next-greater-element-i](https://leetcode.com/problems/next-greater-element-i/) | Stack | Easy | [python](/python/496_NextGreaterElementI.py) | O\(N^2\) | O\(1\) |
 | 500 | [keyboard-row](https://leetcode.com/problems/keyboard-row/) | Hash Table | Easy | [python](/python/500_KeyboardRow.py) | O\(N\) | O\(N\) |
