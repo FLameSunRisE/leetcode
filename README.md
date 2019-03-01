@@ -10,6 +10,7 @@
 | 344 | [reverse-string](https://leetcode.com/problems/reverse-string/) | Two pointers, string | Easy | [python](/python/344_ReverseString.py) | O\(logN\) | O\(1\) |
 | 349 | [intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Hash Table, Two Pointers,Binary Search, Sort | Easy | [python](/python/349_IntersectionofTwoArrays.py) | O\(N\) | O\(N\) |
 | 350 | [intersection-of-two-arrays-ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Hash Table, Two Pointers, Binary Search, Sort | Easy | [python](/python/350_IntersectionofTwoArraysII.py) |  |  |
+| 367 | [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square/) | Math, Binary Search | Easy | [python](/python/637_AverageofLevelsinBinaryTree.py) | O\(logN\) | O\(1\) |
 | 412 | [fizz-buzz/solution](https://leetcode.com/problems/fizz-buzz/solution/) | String | Easy | [python](/python/412_FizzBuzz.py) | O\(N\) | O\(1\) |
 | 429 | [n-ary-tree-level-order-traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | Tree, BFS | Easy | [python](/python/429_NaryTreeLevelOrderTraversal.py) | O\(N\) | O\(N\) |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Bit Manipulation | Easy | [python](/python/657_RobotReturnToOrigin.py) | O\(N\) | O\(1\) |
