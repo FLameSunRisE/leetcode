@@ -2,6 +2,7 @@
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 35 | [search-insert-position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search | Easy | python | O\(logN\) | O\(1\) |
 | 104 | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree, DFS | Easy | [solution](/solution/easy/104-maximum-depth-of-binary-tree.md) /[ python](/python/104_MaximumDepthofBinaryTree.py) | O\(N\) | O\(1\) |
 | 136 | [single-number](https://leetcode.com/problems/single-number/) | Hash Table, Bit Manipulation | Easy | [solution](/python/136_SingleNumber.py) / [python](/python/136_SingleNumber.py) | O\(N\) | O\(1\) |
 | 167 | [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Array, Two Pointers, Binary Search | Easy | [python](/python/167_TwoSumII-Inputarrayissorted.py) | O\(logn\) | O\(n\) |
@@ -38,8 +39,8 @@
 | 704 | [binary-search](https://leetcode.com/problems/binary-search/) | Binary Search | Easy | [python](/python/704_BinarySearch.py) | O\(logn\) | O\(1\) |
 | 709 | [to-lower-case](https://leetcode.com/problems/to-lower-case/) | String | Easy | [python](/python/709_ToLowerCase.py) | O\(N\) | O\(N\) |
 | 728 | [self-dividing-numbers](https://leetcode.com/problems/self-dividing-numbers/) | Math | Easy | [python](/python/728_SelfDividingNumbers.py) | O\(N\) | O\(N\) |
-| 744 | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)62 | Binary Search | Easy | [python](/python/744_FindSmallestLetterGreaterThanTarget.py) | O\(N\) | O\(1\) |
-|  | [prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Bit Manipulation | Easy | [python](/python/762_PrimeNumberofBitsinBinaryRepresentation.py) | O\(N\) | O\(1\) |
+| 744 | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Binary Search | Easy | [python](/python/744_FindSmallestLetterGreaterThanTarget.py) | O\(N\) | O\(1\) |
+| 762 | [prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Bit Manipulation | Easy | [python](/python/762_PrimeNumberofBitsinBinaryRepresentation.py) | O\(N\) | O\(1\) |
 | 766 | [toeplitz-matrix](https://leetcode.com/problems/toeplitz-matrix/) | Array | Easy | [python](/python/766_ToeplitzMatrix.py) | O\(N^2\) | O\(1\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
