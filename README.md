@@ -59,7 +59,7 @@
 | 876 | [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/) | Linked List | Easy | [python](/python/876_MiddleOfTheLinkedList.py) | O\(N\) | O\(N\) |
 | 883 | [projection-area-of-3d-shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | Math | Easy | Python | O\(N^2\) | O\(1\) |
 | 884 | [uncommon-words-from-two-sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | Hash Table | Easy | [python](/solution/easy/884-uncommon-words-from-two-sentences.md) | O\(N\) | O\(N\) |
-| 892 | [Surface-Area-of-3D-Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | String | Easy | [Python](892_SurfaceAreaof3DShapes.py)/[solution](/solution/easy/104-maximum-depth-of-binary-tree.md)| O\(N\) | O\(N\) |
+| 892 | [Surface-Area-of-3D-Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | String | Easy | [Python](892_SurfaceAreaof3DShapes.py)/[solution](/solution/easy/892_SurfaceAreaof3DShapes.md)| O\(N\) | O\(N\) |
 | 893 | [groups-of-special-equivalent-strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | String | Easy | [Python](/solution/easy/893-groups-of-special-equivalent-strings.md) | O\(N\) | O\(N\) |
 | 897 | [increasing-order-search-tree](https://leetcode.com/problems/increasing-order-search-tree/) | Tree, DFS | Easy |  |  |  |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
