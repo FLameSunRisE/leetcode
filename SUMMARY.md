@@ -9,6 +9,7 @@
     * [575-Distribute Candies](solution/easy/575-distribute-candies.md)
     * [620-Not Boring Movies](solution/easy/620-not-boring-movies.md)
     * [682-Baseball Game](solution/easy/682-baseball-game.md)
+    * [784-Letter Case Permutation](solution/easy/784-Letter-Case-Permutation.md)
     * [766-Toeplitz Matrix](solution/easy/766-toeplitz-matrix.md)
     * [872-Leaf-Similar Trees](solution/easy/872leaf-similar-trees.md)
     * [884-Uncommon Words from Two Sentences](solution/easy/884-uncommon-words-from-two-sentences.md)

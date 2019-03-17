@@ -46,6 +46,7 @@
 | 762 | [prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Bit Manipulation | Easy | [python](/python/762_PrimeNumberofBitsinBinaryRepresentation.py) | O\(N\) | O\(1\) |
 | 766 | [toeplitz-matrix](https://leetcode.com/problems/toeplitz-matrix/) | Array | Easy | [python](/python/766_ToeplitzMatrix.py) | O\(N^2\) | O\(1\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
+| 784 | [Letter-Case-Permutation](https://leetcode.com/problems/letter-case-permutation/) | Backtracking, Bit Manipulation | Easy | [python](/python/784_LetterCasePermutation.py) \ [solution](/solution/easy/784-Letter-Case-Permutation.md) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
 | 806 | [number-of-lines-to-write-string](https://leetcode.com/problems/number-of-lines-to-write-string/) | String | Easy | [python](/python/806_NumberOfLinesToWriteString.py) | O\(N\) | O\(1\) |
 | 811 | [subdomain-visit-count](https://leetcode.com/problems/subdomain-visit-count/) | Hash Table | Easy | [python](/python/811_SubdomainVisitCount.py) | O\(N\) | O\(N\) |
@@ -54,12 +55,12 @@
 | 832 | [flipping-an-image](https://leetcode.com/problems/flipping-an-image/) | Array | Easy | [python](/python/832_FlippingAnImage.py) | O\(N\) | O\(1\) |
 | 852 | [peak-index-in-a-mountain-array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | Easy | [python](/python/852_PeakIndexInAMountainArray.py) | O\(logN\) | O\(1\) |
 | 867 | [transpose-matrix](https://leetcode.com/problems/transpose-matrix/) | Array | Easy | [python](/python/867_TransposeMatrix.py) | O\(N^2\) | O\(N^2\) |
-| 868 | [binary-gap/solution](https://leetcode.com/problems/binary-gap/solution/) | Math | Easy | [solution ](/solution/easy/868-binary-gap.md)/ python | O\(N\) | O\(N\) |
+| 868 | [binary-gap/solution](https://leetcode.com/problems/binary-gap/solution/) | Math | Easy | [solution](/solution/easy/868-binary-gap.md)/ python | O\(N\) | O\(N\) |
 | 872 | [leaf-similar-trees](https://leetcode.com/problems/leaf-similar-trees/) | Tree, DFS | Easy | [python](/python/872_LeafSimilarTrees.py) | O\(N\) | O\(1\) |
 | 876 | [middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/) | Linked List | Easy | [python](/python/876_MiddleOfTheLinkedList.py) | O\(N\) | O\(N\) |
 | 883 | [projection-area-of-3d-shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/) | Math | Easy | Python | O\(N^2\) | O\(1\) |
 | 884 | [uncommon-words-from-two-sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/) | Hash Table | Easy | [python](/solution/easy/884-uncommon-words-from-two-sentences.md) | O\(N\) | O\(N\) |
-| 892 | [Surface-Area-of-3D-Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | String | Easy | [Python](892_SurfaceAreaof3DShapes.py)/[solution](/solution/easy/892_SurfaceAreaof3DShapes.md)| O\(N\) | O\(N\) |
+| 892 | [Surface-Area-of-3D-Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/) | String | Easy | [Python](892_SurfaceAreaof3DShapes.py)/[solution](/solution/easy/892_SurfaceAreaof3DShapes.md)| O\(N^2\) | O\(1\) |
 | 893 | [groups-of-special-equivalent-strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/) | String | Easy | [Python](/solution/easy/893-groups-of-special-equivalent-strings.md) | O\(N\) | O\(N\) |
 | 897 | [increasing-order-search-tree](https://leetcode.com/problems/increasing-order-search-tree/) | Tree, DFS | Easy |  |  |  |
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
