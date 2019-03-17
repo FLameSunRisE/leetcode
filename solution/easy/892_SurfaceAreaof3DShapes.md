@@ -48,11 +48,10 @@ Output: 46
 
 ## Solution:
 
-Step 1: Add A and B together
+The title of this question is to ask for the overall area.
+Step 1: calculate the total surface of the cube (4*n+2),
 
-Step 2: Cut the string
-
-Step 3: Use set\(\) to find out the number of each string. If it is equal to one, return it to ans.
+Step 2: Pick up the adjacent overlapping area, find the minimum value and multiply by 2 (the overlap of the two cubes)
 
 ## Code:
 
