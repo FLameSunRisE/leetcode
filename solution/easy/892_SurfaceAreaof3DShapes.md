@@ -1,0 +1,75 @@
+# 892. Surface Area of 3D Shapes
+
+On a N * N grid, we place some 1 * 1 * 1 cubes.
+
+Each value v = grid[i][j] represents a tower of v cubes placed on top of grid cell (i, j).
+
+Return the total surface area of the resulting shapes.
+
+1. 
+**Example 1:**
+
+```
+Input: [[2]]
+Output: 10
+```
+
+**Example 2:**
+
+```
+Input: [[1,2],[3,4]]
+Output: 34
+```
+**Example 3:**
+
+```
+Input: [[1,0],[0,2]]
+Output: 16
+```
+**Example 4:**
+
+```
+Input: [[1,1,1],[1,0,1],[1,1,1]]
+Output: 32
+```
+**Example 2:**
+
+```
+Input: [[2,2,2],[2,1,2],[2,2,2]]
+Output: 46
+```
+
+**Note:**
+
+1 <= N <= 50
+0 <= grid[i][j] <= 50
+
+
+
+## Solution:
+
+Step 1: Add A and B together
+
+Step 2: Cut the string
+
+Step 3: Use set\(\) to find out the number of each string. If it is equal to one, return it to ans.
+
+## Code:
+
+* python:
+
+```py
+class Solution:
+    def uncommonFromSentences(self, A: 'str', B: 'str') -> 'List[str]':
+        s = A + ' '+B
+        s = s.split()
+        ans = []
+        for word in set(s):
+            if s.count(word)==1:
+                ans.append(word)
+        return ans
+
+```
+
+
+
