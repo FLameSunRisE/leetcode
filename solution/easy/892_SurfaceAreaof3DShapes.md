@@ -60,15 +60,18 @@ Step 3: Use set\(\) to find out the number of each string. If it is equal to one
 
 ```py
 class Solution:
-    def uncommonFromSentences(self, A: 'str', B: 'str') -> 'List[str]':
-        s = A + ' '+B
-        s = s.split()
-        ans = []
-        for word in set(s):
-            if s.count(word)==1:
-                ans.append(word)
-        return ans
-
+    def surfaceArea(self, grid: List[List[int]]) -> int:
+        area = 0
+        n = len(grid)
+        for i in range(n):
+            for j in range(n):
+                if grid[i][j]:
+                    area += grid[i][j]*4 + 2
+                if i > 0:
+                    area -= min(grid[i][j], grid[i-1][j]) * 2
+                if j > 0:
+                    area -= min(grid[i][j], grid[i][j-1]) * 2
+        return area
 ```
 
 
