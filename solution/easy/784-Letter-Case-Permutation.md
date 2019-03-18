@@ -24,13 +24,31 @@ S will consist only of letters or digits.
 
 ## Solution:
 
+Given a string S, need to  transform every letter individually to be lowercase or uppercase to create another string.  
+
+Using DFS solution:
+reference : https://zxi.mytechroad.com/blog/searching/leetcode-784-letter-case-permutation/
 
 ## Code:
 
 * python:
 
 ```py
-
+class Solution:
+    def letterCasePermutation(self, S) -> List[str]:
+        ans = []
+        def dfs(S, i, n):
+            if i == n:
+                ans.append(''.join(S))
+                return
+            dfs(S, i + 1, n)
+            if not S[i].isalpha():
+                return
+            S[i] = chr(ord(S[i]) ^ (1 << 5))
+            dfs(S, i + 1, n)
+            S[i] = chr(ord(S[i]) ^ (1 << 5))
+        dfs(list(S), 0, len(S))
+        return ans
 ```
 
 
