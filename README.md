@@ -47,7 +47,7 @@
 | 762 | [prime-number-of-set-bits-in-binary-representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Bit Manipulation | Easy | [python](/python/762_PrimeNumberofBitsinBinaryRepresentation.py) | O\(N\) | O\(1\) |
 | 766 | [toeplitz-matrix](https://leetcode.com/problems/toeplitz-matrix/) | Array | Easy | [python](/python/766_ToeplitzMatrix.py) | O\(N^2\) | O\(1\) |
 | 771 | [jewels-and-stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Table | Easy | [python](/python/771_JewelsAndStones.py) | O\(N^2\) | O\(N\) |
-<!-- | 784 | [Letter-Case-Permutation](https://leetcode.com/problems/letter-case-permutation/) | Backtracking, Bit Manipulation | Easy | [python](/python/784_LetterCasePermutation.py) \ [solution](/solution/easy/784-Letter-Case-Permutation.md) | O\(N^2\) | O\(N\) | -->
+| 784 | [Letter-Case-Permutation](https://leetcode.com/problems/letter-case-permutation/) | Backtracking, Bit Manipulation | Easy | [python](/python/784_LetterCasePermutation.py) \ [solution](/solution/easy/784-Letter-Case-Permutation.md) | O\(N^2\) | O\(N\) |
 | 804 | [unique-morse-code-words](https://leetcode.com/problems/unique-morse-code-words/) | String | Easy | [python](/python/804_UniqueMorseCodeWords.py) | O\(N^2\) | O\(N\) |
 | 806 | [number-of-lines-to-write-string](https://leetcode.com/problems/number-of-lines-to-write-string/) | String | Easy | [python](/python/806_NumberOfLinesToWriteString.py) | O\(N\) | O\(1\) |
 | 811 | [subdomain-visit-count](https://leetcode.com/problems/subdomain-visit-count/) | Hash Table | Easy | [python](/python/811_SubdomainVisitCount.py) | O\(N\) | O\(N\) |
