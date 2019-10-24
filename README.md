@@ -77,3 +77,4 @@
 | 973 | [k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Math, Divide and Conquer, Sort | Easy | [python](/python/973_KClosestPointsToOrigin.py) | O\(N\) | O\(N\) |
 | 976 | [largest-perimeter-triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | Array , Math | Easy | [python](/python/976_LargestPerimeterTriangle.py) | O\(NlogN\) | O\(N\) |
 | 977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Array,Two Pointer,Sort | Easy | [python](/python/977_SquaresofASortedArray.py) | O\(NlogN\) | O\(N\) |
+| 999 | [available-captures-for-rook](https://leetcode.com/problems/available-captures-for-rook/) | Array | Easy | [solution](/solution/easy/999-Available-Captures-for-Rook.md) | O\(N^2\) | O\(1\) |

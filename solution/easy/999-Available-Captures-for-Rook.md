@@ -66,4 +66,70 @@ There is exactly one cell with board[i][j] == 'R'
 ## Code:
 
 
-
+```js
+/**
+ * @param {character[][]} board
+ * @return {number}
+ */
+var numRookCaptures = function(board) {
+    var sum = 0;
+    var row;
+    var col;
+    for (var x= 0 ; x<board.length;x++){
+        for (var y= 0 ; y < board[x].length ; y++){
+            var rIndex = board[x][y].indexOf('R');
+            if(rIndex != -1){
+                row = x;
+                col = y;
+                break;
+            }
+        }
+    }
+    console.log(row + ',' + col)
+    
+    //延伸
+    for (var i = row+1 ; i< board.length ; i++){
+        if(board[i][col]=="B"){
+            break;
+        }
+        if(board[i][col]=="p"){
+            console.log(i + ',' + col + ':' + board[i][col]);
+            sum+=1;
+            break;
+        }
+    }
+    for (var i = row-1 ; i >= 0 ; i--){
+        if(board[i][col]=="B"){
+            break;
+        }
+        if(board[i][col]=="p"){
+            console.log(i + ',' + col + ':' + board[i][col]);
+            sum+=1;
+            break;
+        }
+    }
+    
+    for (var i = col+1 ; i< board[row].length ; i++){
+        if(board[row][i]=="B"){
+            break;
+        }
+        if(board[row][i]=="p"){
+            console.log(row + ',' + i + ':' + board[row][i]);
+            sum+=1;
+            break;
+        }
+    }
+    
+    for (var i = col-1 ; i>=0 ; i--){
+        if(board[row][i]=="B"){
+            break;
+        }
+        if(board[row][i]=="p"){
+            console.log(row + ',' + i + ':' + board[row][i]);
+            sum+=1;
+            break;
+        }
+    }
+    return sum;
+};
+```
