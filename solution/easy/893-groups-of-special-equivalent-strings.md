@@ -13,7 +13,7 @@ Return the number of groups of special-equivalent strings from`A`.
 ## Solution:
 
 The first idea after reading this question is to use set function, but you need to do swapping before, so you must first distinguish the letters of even and odd and then sort them. Finally, you can find the answer through set.
-
+`
 ## Code:
 
 * python

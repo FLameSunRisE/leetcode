@@ -26,5 +26,42 @@ A[i][j] is a lowercase letter
 
 
 ```js
-test
+ /**
+   * @param {string[]} A
+   * @return {string[]}
+   */
+  var commonChars = function(A) {
+    let output = [];
+    let set = {};
+
+    //Count letters in each word
+    A.forEach((word, wordIndex) => {
+      word.split('').forEach(letter => {
+        if(!set[letter]){
+          if(wordIndex === 0){
+            set[letter] = [1];
+          }
+        }
+        else{
+          if(!set[letter][wordIndex]){
+              set[letter][wordIndex] = 1;
+          } else{
+              set[letter][wordIndex]++;
+          }
+        }
+      });
+    });
+
+    //Check min letters count in each word
+    Object.keys(set).forEach(letter => {
+      if(set[letter].length === A.length){
+        let length = Math.min(...set[letter]);
+        if(length){
+          output.push(...Array(length).fill(letter));
+        }
+      }
+    });
+
+    return output;
+  };
 ```

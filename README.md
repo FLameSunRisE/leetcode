@@ -2,6 +2,7 @@
 
 | \# | Title | Category | Difficulty | Solution | Time | Space |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Array, Binary Search | Easy | [java](easy_26_RemoveDuplicatesfromSortedArray.java) | O\(N\) | O\(1\) |
 | 35 | [search-insert-position](https://leetcode.com/problems/search-insert-position/) | Array, Binary Search | Easy | [python](/python/35_SearchInsertPosition.py) | O\(logN\) | O\(1\) |
 | 104 | [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree, DFS | Easy | [solution](/solution/easy/104-maximum-depth-of-binary-tree.md) /[ python](/python/104_MaximumDepthofBinaryTree.py) | O\(N\) | O\(1\) |
 | 136 | [single-number](https://leetcode.com/problems/single-number/) | Hash Table, Bit Manipulation | Easy | [solution](/python/136_SingleNumber.py) / [python](/python/136_SingleNumber.py) | O\(N\) | O\(1\) |
@@ -78,4 +79,6 @@
 | 976 | [largest-perimeter-triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | Array , Math | Easy | [python](/python/976_LargestPerimeterTriangle.py) | O\(NlogN\) | O\(N\) |
 | 977 | [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Array,Two Pointer,Sort | Easy | [python](/python/977_SquaresofASortedArray.py) | O\(NlogN\) | O\(N\) |
 | 999 | [available-captures-for-rook](https://leetcode.com/problems/available-captures-for-rook/) | Array | Easy | [solution](/solution/easy/999-Available-Captures-for-Rook.md) | O\(N^2\) | O\(1\) |
-| 1002 | [find-common-characters](https://leetcode.com/problems/find-common-characters/) | Array Hash Table | Easy | [solution](/solution/easy/.md) | O\(N^2\) | O\(1\) |
+| 1002 | [find-common-characters](https://leetcode.com/problems/find-common-characters/) | Array Hash Table | Easy | [NotYet](/solution/easy/.md) | O\(N^2\) | O\(1\) |
+| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | Array | Easy | [solution](/solution/easy/1304-find-n-unique-integers-sum-up-to-zero.md) | O\(N\) | O\(N\) |
+
