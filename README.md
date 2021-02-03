@@ -81,4 +81,5 @@
 | 999 | [available-captures-for-rook](https://leetcode.com/problems/available-captures-for-rook/) | Array | Easy | [solution](/solution/easy/999-Available-Captures-for-Rook.md) | O\(N^2\) | O\(1\) |
 | 1002 | [find-common-characters](https://leetcode.com/problems/find-common-characters/) | Array Hash Table | Easy | [NotYet](/solution/easy/.md) | O\(N^2\) | O\(1\) |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | Array | Easy | [solution](/solution/easy/1304-find-n-unique-integers-sum-up-to-zero.md) | O\(N\) | O\(N\) |
+| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | Sort | Easy | [solution](/solution/easy/1528-Shuffle-String.md) | O\(N\) | O\(N\) |
 
