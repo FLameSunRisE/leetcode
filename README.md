@@ -74,6 +74,7 @@
 | 942 | [di-string-match](https://leetcode.com/problems/di-string-match/) | Math | Easy | [python](/python/942_DIStringMatch.py) | O\(N\) | O\(N\) |
 | 944 | [delete-columns-to-make-sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | Greedy | Easy | [python](/python/944_DeleteColumnsToMakeSorted.py) | O\(N\) | O\(1\) |
 | 953 | [verifying-an-alien-dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Hash Table | Easy | [python](/python/953_VerifyinganAlienDictionary.py) | O\(N\) | O\(N\) |
+| 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/?fbclid=IwAR3zdE5qf_D8Qv-wMFcI68ya6de61qbX8EjobhmRqQW5VHTjIwpTvhNsydM) | Hash Table | Easy | [solution](/solution/easy/1640-Check-Array-Formation-Through-Concatenation.md) | O\(N\) | O\(N\) |
 | 961 | [n-repeated-element-in-size-2n-array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | Hash Table | Easy | [python](/python/961_N-RepeatedElementInSize2NArray.py) | O\(N\) | O\(N\) |
 | 965 | [univalued-binary-tree](https://leetcode.com/problems/univalued-binary-tree/) | Tree | Easy | [python](/python/965_UnivaluedBinaryTree.py) | O\(N\) | O\(N\) |
 | 973 | [k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Math, Divide and Conquer, Sort | Easy | [python](/python/973_KClosestPointsToOrigin.py) | O\(N\) | O\(N\) |
@@ -85,3 +86,4 @@
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | String | Easy | [solution](/solution/easy/1309-Decrypt-String-from-Alphabet-to-Integer-Mapping.md) | O\(N\) | O\(1\) |
 | 1436 | [ Destination City](https://leetcode.com/problems/destination-city/) | String | Easy | [solution](/solution/easy/.md) | O\(N\) | O\(1\) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | Sort | Easy | [solution](/solution/easy/1528-Shuffle-String.md) | O\(N\) | O\(N\) |
+| 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | Sort | Easy | [solution](/solution/easy/1640-Check-Array-Formation-Through-Concatenation.md) | O\(N\) | O\(N\) |
