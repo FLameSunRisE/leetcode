@@ -9,6 +9,7 @@
 | 167 | [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Array, Two Pointers, Binary Search | Easy | [python](/python/167_TwoSumII-Inputarrayissorted.py) | O\(logn\) | O\(n\) |
 | 206 | [Reverse-Linked-List](https://leetcode.com/problems/reverse-linked-list/) | Linked list | Easy | [solution](/solution/easy/206-Reverse-Linked-List.md) | O\(N\) | O\(n\) |
 | 226 | [invert-binary-tree](https://leetcode.com/problems/invert-binary-tree/) | Tree | Easy | [python](/python/226_InvertBinaryTree.py) | O\(N\) | O\(n\) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | HashTable, Sort | Easy | [solution](/solution/easy/226_InvertBinaryTree.py) | O\(N\) | O\(n\) |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | Brainteaser Minimax | Easy | [python](/python/292_NimGame.py) / [Solution](/solution/easy/292_NimGame.md) | O\(1\) | O\(1\) |
 | 344 | [reverse-string](https://leetcode.com/problems/reverse-string/) | Two pointers, string | Easy | [python](/python/344_ReverseString.py) | O\(logN\) | O\(1\) |
 | 349 | [intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Hash Table, Two Pointers,Binary Search, Sort | Easy | [python](/python/349_IntersectionofTwoArrays.py) | O\(N\) | O\(N\) |
