@@ -6,7 +6,6 @@ The ith student started doing their homework at the time startTime[i] and finish
 
 Return the number of students doing their homework at time queryTime. More formally, return the number of students where queryTime lays in the interval [startTime[i], endTime[i]] inclusive.
 
- 
 
 ***Example 1:***
 ```
@@ -60,4 +59,4 @@ class Solution:
         for index in range(len(startTime)):
             rslt += 1 if startTime[index] <= queryTime and queryTime <= endTime[index] else 0
         return rslt
-```
+```.0
