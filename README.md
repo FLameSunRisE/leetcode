@@ -86,6 +86,7 @@
 | 1054 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/) | Heap sort | Medium | [solution](/solution/easy/1054-Distant-Barcodes.md) | O\(NlogN\) | O\(N\) |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | Array | Easy | [solution](/solution/easy/1304-find-n-unique-integers-sum-up-to-zero.md) | O\(N\) | O\(N\) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | String | Easy | [solution](/solution/easy/1309-Decrypt-String-from-Alphabet-to-Integer-Mapping.md) | O\(N\) | O\(1\) |
+| 1403 | [ Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/) | Greedy Sort | Easy | [solution](/solution/easy/1403-minimum-subsequence-in-non-increasing-order.md) | O\(N\) | O\(1\) |
 | 1436 | [ Destination City](https://leetcode.com/problems/destination-city/) | String | Easy | [solution](/solution/easy/.md) | O\(N\) | O\(1\) |
 | 1450 | [ Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | Array | Easy | [solution](/solution/easy/.md) | O\(N\) | O\(1\) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | Sort | Easy | [solution](/solution/easy/1528-Shuffle-String.md) | O\(N\) | O\(N\) |
