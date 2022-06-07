@@ -46,16 +46,6 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
   - Code
     ```java
     class Solution {
-        // public int removeDuplicates(int[] nums) {
-        //     int point = 0;
-        //     for(int i = 1; i < nums.length; i++){
-        //         if(nums[i] != nums[point]){
-        //             point += 1;
-        //             nums[point] = nums[i];
-        //         }
-        //     }
-        //     return point + 1;
-        // }
     }
     ```
 - python
@@ -77,7 +67,7 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
     x = 159, revX = 15
     x = 15, revX = 159
     ```
-    
+
   ```py
     class Solution:
         def isPalindrome(self, x: int) -> bool:
@@ -96,4 +86,6 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
   
 
 
-
+- REF
+    - [
+Python 3 -> 1 solution is 89.20% faster. 2nd is 99.14% faster. Explanation added](https://leetcode.com/problems/palindrome-number/discuss/785314/Python-3-greater-1-solution-is-89.20-faster.-2nd-is-99.14-faster.-Explanation-added)
