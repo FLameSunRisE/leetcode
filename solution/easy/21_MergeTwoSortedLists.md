@@ -34,8 +34,8 @@ Both list1 and list2 are sorted in non-decreasing order.
 
 ## Solution:
 
-1. 基本檢核去除奇數
-2. 透過stack的機制遇到對應的dict就pop出來 反之繼續append
+1. 基本檢核去除空值
+2. in-place , iteratively
 
 ## code:
 
@@ -49,17 +49,22 @@ Both list1 and list2 are sorted in non-decreasing order.
     ```py
     class Solution:
         # 解法一
-        def isValid(self, s: str) -> bool:
-            stack = []
-            dict = {"]": "[", "}": "{", ")": "("}
-            for char in s:
-                if char in dict.values():
-                    stack.append(char)
-                elif char in dict.keys():
-                    if stack == [] or dict[char] != stack.pop():
-                        return False
+        def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+            if None in (list1, list2):
+                return list1 or list2
+            dummy = cur = ListNode(0)
+            dummy.next = list1
+            while list1 and list2:
+                if list1.val < list2.val:
+                    list1 = list1.next
                 else:
-                    return False
-            return stack == []
+                    nxt = cur.next
+                    cur.next = list2
+                    tmp = list2.next
+                    list2.next = nxt
+                    list2 = tmp
+                cur = cur.next
+            cur.next = list1 or list2
+            return dummy.next
         # 解法二
     ```

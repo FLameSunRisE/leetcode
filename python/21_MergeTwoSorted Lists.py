@@ -3,16 +3,26 @@ class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
+
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        if len(list1) == 0:
-            return list2
-        if len(list2) == 0:
-            return list2
-
-        for i in list1:
-            print(i)
-        return []
+        if None in (list1, list2):
+            return list1 or list2
+        dummy = cur = ListNode(0)
+        dummy.next = list1
+        while list1 and list2:
+            if list1.val < list2.val:
+                list1 = list1.next
+            else:
+                nxt = cur.next
+                cur.next = list2
+                tmp = list2.next
+                list2.next = nxt
+                list2 = tmp
+            cur = cur.next
+        cur.next = list1 or list2
+        return dummy.next
 
 
 def main():
