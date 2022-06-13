@@ -6,6 +6,7 @@ class ListNode:
 
 
 class Solution:
+    # TODO(Jay), 需在理解此解法
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         if None in (list1, list2):
             return list1 or list2
