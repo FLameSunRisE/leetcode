@@ -38,7 +38,7 @@ There will be at least one word in s.
 
 ## Solution:
 - 解法一
-  - 基本檢核過濾
+  - split後直接取最後一筆
 
 
 ## code:
@@ -53,6 +53,7 @@ There will be at least one word in s.
     ```py
     class Solution:
         # 解法一
-
+        word_list = s.split()
+        return len(word_list[-1])
         # 解法二
     ```
