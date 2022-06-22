@@ -43,8 +43,17 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
     ```py
     class Solution:
         # 解法一
-        a = int(a, 2)
-        b = int(b, 2)
-        return bin(a+b)[2:]
+        def mySqrt(self, x: 'int') -> 'int':
+          if x <= 1:
+              return x
+          l = 1
+          r = x
+          while l <= r:
+              m = l + (r - l) // 2
+              if m * m > x:
+                  r = m - 1
+              else:
+                  l = m + 1
+          return r
         # 解法二
     ```
