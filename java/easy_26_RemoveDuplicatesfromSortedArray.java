@@ -1,4 +1,7 @@
-//26. Remove Duplicates from Sorted Array
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int point = 0;
