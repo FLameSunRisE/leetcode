@@ -32,18 +32,72 @@ Explanation: There are three ways to climb to the top.
 ```
 
 ## Solution:
-- 解法一
-  - 
+從題目中可以掌握到此題的規律
+- 題目範例
+  - n = 3
+    - 走一步 + 剩兩步 = 2
+    - 走兩步 + 剩一步 = 1
+    - 歸納:
+      - Fn(3) = Fn(2) + Fn(1)
+  - n = 4 
+    - 走一步 + 剩三步 = 3
+    - 走兩步 + 剩兩步 = 2
+    - 歸納:
+      - Fn(4) = Fn(3) + Fn(2)
+
+- 透過遞迴處理 ```Fn(n) = Fn(n-1)+Fn(n-2)```
+  - 答案: Time Limit Exceeded 超時
+
+- DP (Bottom Up Approach)
+
 
 
 ## code:
 
-<!-- - java
+- java
   - Code
     ```java
     class Solution {
+      //  Time Limit Exceeded ==
+      public int climbStairs(int n) {
+        //  basic check
+        if (n == 0) {
+            return 0;
+        }
+        if (n == 1) {
+            return 1;
+        }
+        if (n == 2) {
+            return 2;
+        }
+        // Fibonacci : Fn(n) = Fn(n-1) + Fn(n-2)
+        return climbStairs(n - 1) + climbStairs(n - 2);
+      }
+
+      public int climbStairs2(int n){
+        //  basic check
+        if (n == 0) {
+            return 0;
+        }
+        if (n == 1) {
+            return 1;
+        }
+        if (n == 2) {
+            return 2;
+        }
+
+        int[] dp = new int[n + 1];
+        dp[1] = 1;
+        dp[2] = 2;
+
+        for (int i = 3; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+
+        return dp[n];
+      }
     }
-    ``` -->
+    ```
 - python
     ```py
     class Solution:
