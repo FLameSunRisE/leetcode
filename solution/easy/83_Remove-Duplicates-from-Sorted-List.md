@@ -27,18 +27,33 @@ The list is guaranteed to be sorted in ascending order.
 ```
 
 ## Solution:
-- 解法一
-  - 
+- 跑loop當next == next.next時直接指到下一個位置
 
 
 ## code:
 
-<!-- - java
+- java
   - Code
     ```java
     class Solution {
+      public ListNode deleteDuplicates(ListNode head) {
+        // basic check
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode dummy=head;
+        while(dummy.next!=null){
+            // if same jump to next
+            if(dummy.next.val==dummy.val){
+                dummy.next=dummy.next.next;
+            }else{
+                dummy=dummy.next;  
+            } 
+        }
+        return head;
+      }
     }
-    ``` -->
+    ```
 - python
     ```py
     class Solution:
