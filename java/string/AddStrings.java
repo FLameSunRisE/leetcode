@@ -19,7 +19,7 @@ public class AddStrings {
         System.out.println();
 //        Input: num1 = "11", num2 = "123"
 //        Output: "134"
-        System.out.println(new AddStrings().addStrings("456","77"));
+        System.out.println(new AddStrings().addStrings("11","123"));
 //        Input: num1 = "456", num2 = "77"
 //        Output: "533"
         System.out.println(new AddStrings().addStrings("0","0"));
