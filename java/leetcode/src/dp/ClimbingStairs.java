@@ -1,4 +1,4 @@
-package leetcode.src.dp
+package leetcode.src.dp;
 
 /**
  * Created by jayyeh on 2022/07/29

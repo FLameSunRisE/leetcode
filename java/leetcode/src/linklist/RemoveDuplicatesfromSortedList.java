@@ -1,4 +1,4 @@
-package leetcode.src.linklist
+package leetcode.src.linklist;
 
 /**
  * Created by jayyeh on 2022/07/29
@@ -16,7 +16,7 @@ public class RemoveDuplicatesfromSortedList {
         System.out.println(new RemoveDuplicatesfromSortedList().deleteDuplicates(inputList));
     }
 
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 

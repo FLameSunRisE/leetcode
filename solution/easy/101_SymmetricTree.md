@@ -36,12 +36,11 @@ The number of nodes in the tree is in the range [1, 1000].
   - Code
     ```java
     class Solution {
-    public boolean isSymmetric(TreeNode root) {
-    if(root==null){
-    return true;
-    }
-
-            isSymmetricHelp(root.left, root.right);
+        public boolean isSymmetric(TreeNode root) {
+            if(root==null){
+                return true;
+            }
+            return isSymmetricHelp(root.left, root.right);
         }
 
         private boolean isSymmetricHelp(TreeNode left, TreeNode right){
@@ -53,7 +52,6 @@ The number of nodes in the tree is in the range [1, 1000].
             }
             return isSymmetricHelp(left.left, right.right) && isSymmetricHelp(left.right, right.left);
         }
-
     }
     ```
 

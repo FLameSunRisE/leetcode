@@ -1,4 +1,4 @@
-package leetcode.src.linklist
+package leetcode.src.linklist;
 
 
 /**
@@ -13,7 +13,7 @@ public class MergeTwoSortedLists {
      */
     public static void main(String[] args) {
         System.out.println();
-        System.out.println(new MergeTwoSortedLists().mergeTwoLists("000001010000101001", "0"));
+//        System.out.println(new MergeTwoSortedLists().mergeTwoLists("000001010000101001", "0"));
     }
 
     public class ListNode {
@@ -25,6 +25,6 @@ public class MergeTwoSortedLists {
     }
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        
+        return null;
     }
 }

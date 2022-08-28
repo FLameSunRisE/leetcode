@@ -20,10 +20,10 @@ public class SymmetricTree {
     System.out.println();
     // Input: root = [1,2,2,3,4,4,3]
     // Output: true
-    System.out.println(new SymmetricTree().isSymmetric([1,2,2,3,4,4,3]));
+//    System.out.println(new SymmetricTree().isSymmetric([1,2,2,3,4,4,3]));
     // Input: root = [1,2,2,null,3,null,3]
     // Output: false
-    System.out.println(new SymmetricTree().isSymmetric([1,2,2,null,3,null,3]);
+//    System.out.println(new SymmetricTree().isSymmetric([1,2,2,null,3,null,3]);
   }
 
   /**
@@ -46,8 +46,7 @@ public class SymmetricTree {
         if(root==null){
             return true;
         }
-        
-        isSymmetricHelp(root.left, root.right);
+        return isSymmetricHelp(root.left, root.right);
     }
 
     private boolean isSymmetricHelp(TreeNode left, TreeNode right){
