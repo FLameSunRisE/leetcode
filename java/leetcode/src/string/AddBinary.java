@@ -23,8 +23,9 @@ public class AddBinary {
     public String addBinary(String a, String b) {
         if (a.length() > b.length()) {
             return calculate(a, b);
-        } else
+        } else {
             return calculate(b, a);
+        }
     }
 
     /**

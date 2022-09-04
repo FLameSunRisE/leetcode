@@ -4,12 +4,6 @@ import java.util.*;
 
 /**
  * Created by jayyeh on 2022/07/29
- *
- * <p>
- * Given two binary strings, return their sum (also a binary string).
- *
- * <p>
- * For example, a = "11" b = "1" Return "100".
  * @author Jay
  */
 public class AreNumbersAscending {
