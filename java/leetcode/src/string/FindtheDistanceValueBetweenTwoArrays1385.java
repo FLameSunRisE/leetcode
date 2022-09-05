@@ -11,7 +11,7 @@ import java.util.*;
  * <p>
  * For example, a = "11" b = "1" Return "100".
  */
-public class MinimumIndexSumofTwoLists {
+public class FindtheDistanceValueBetweenTwoArrays1385 {
     /**
      * Main method
      *
@@ -24,13 +24,13 @@ public class MinimumIndexSumofTwoLists {
         // Explanation: The only common string is "Shogun".
         String[] list1 = {"Shogun", "Tapioca Express", "Burger King", "KFC"};
         String[] list2 = {"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"};
-        System.out.println(Arrays.toString(new MinimumIndexSumofTwoLists().findRestaurant(list1, list2)));
+        System.out.println(Arrays.toString(new FindtheDistanceValueBetweenTwoArrays1385().findRestaurant(list1, list2)));
         // Input: list1 = ["Shogun","Tapioca Express","Burger King","KFC"], list2 = ["KFC","Shogun","Burger King"]
         // Output: ["Shogun"]
         // Explanation: The common string with the least index sum is "Shogun" with index sum = (0 + 1) = 1.
         list1 = new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"};
         list2 = new String[]{"KFC", "Shogun", "Burger King"};
-        System.out.println(Arrays.toString(new MinimumIndexSumofTwoLists().findRestaurant(list1, list2)));
+        System.out.println(Arrays.toString(new FindtheDistanceValueBetweenTwoArrays1385().findRestaurant(list1, list2)));
         // Input: list1 = ["happy","sad","good"], list2 = ["sad","happy","good"]
         // Output: ["sad","happy"]
         // Explanation: There are three common strings:
@@ -40,7 +40,7 @@ public class MinimumIndexSumofTwoLists {
         // The strings with the least index sum are "sad" and "happy".
         list1 = new String[]{"happy", "sad", "good"};
         list2 = new String[]{"sad", "happy", "good"};
-        System.out.println(Arrays.toString(new MinimumIndexSumofTwoLists().findRestaurant(list1, list2)));
+        System.out.println(Arrays.toString(new FindtheDistanceValueBetweenTwoArrays1385().findRestaurant(list1, list2)));
     }
 
     public String[] findRestaurant(String[] list1, String[] list2) {
