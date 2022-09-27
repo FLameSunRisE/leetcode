@@ -28,6 +28,10 @@ timeSeries is sorted in non-decreasing order.
 
 ## Solution:
 
+由於```timeSeries```是sorted過的, 因此for loop去算出每個攻擊間的傷害
+
+- 攻擊時間 < 上次攻擊 + duration : 表示毒與下次攻擊有重疊, ```攻擊時間 - 上次攻擊時間``` 即為此次時間
+
 
 ## Code:
 
@@ -35,7 +39,18 @@ timeSeries is sorted in non-decreasing order.
   
 ```java
 class Solution {
-
+    public int findPoisonedDuration(int[] timeSeries, int duration) {
+        if (timeSeries.length == 0) {
+            return 0;
+        }
+        int begin = timeSeries[0];
+        int total = 0;
+        for (int t : timeSeries) {
+            total = total + (t < begin + duration ? t - begin : duration);
+            begin = t;
+        }
+        return total + duration;
+    }
 }
 ```
 
