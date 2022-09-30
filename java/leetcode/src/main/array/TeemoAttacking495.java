@@ -1,4 +1,4 @@
-package array;
+package main.array;
 
 /**
  * @author User
@@ -16,8 +16,10 @@ public class TeemoAttacking495 {
         int[] list = {1, 4};
         System.out.println(new TeemoAttacking495().findPoisonedDuration(list, 2));
         System.out.println("========================");
-        //Input: timeSeries = [1,2], duration = 2
-        //Output: 3
+        /*
+        Input: timeSeries = [1,2], duration = 2
+        Output: 3
+        */
         list = new int[]{1,2};
         System.out.println(new TeemoAttacking495().findPoisonedDuration(list, 2));
         System.out.println("========================");

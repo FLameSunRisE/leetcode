@@ -4,7 +4,7 @@ package leetcode.src.tree;
  * Created by jayyeh on 2022/07/29
  *
  * <p>
- * Given two binary strings, return their sum (also a binary string).
+ * Given two binary strings, return their sum (also a binary main.string).
  *
  * <p>
  * For example, a = "11" b = "1" Return "100".
@@ -27,7 +27,7 @@ public class SymmetricTree {
   }
 
   /**
-   * Definition for a binary tree node
+   * Definition for a binary main.tree node
    */
   public class TreeNode {
     int val;

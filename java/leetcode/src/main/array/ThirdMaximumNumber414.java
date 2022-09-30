@@ -1,6 +1,4 @@
-package array;
-
-import java.util.Arrays;
+package main.array;
 
 /**
  * @author User

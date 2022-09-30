@@ -6,7 +6,7 @@ import java.util.*;
  * Created by jayyeh on 2022/07/29
  *
  * <p>
- * Given two binary strings, return their sum (also a binary string).
+ * Given two binary strings, return their sum (also a binary main.string).
  *
  * <p>
  * For example, a = "11" b = "1" Return "100".
@@ -21,13 +21,13 @@ public class FindtheDistanceValueBetweenTwoArrays1385 {
         System.out.println();
         // Input: list1 = ["Shogun","Tapioca Express","Burger King","KFC"], list2 = ["Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"]
         // Output: ["Shogun"]
-        // Explanation: The only common string is "Shogun".
+        // Explanation: The only common main.string is "Shogun".
         String[] list1 = {"Shogun", "Tapioca Express", "Burger King", "KFC"};
         String[] list2 = {"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"};
         System.out.println(Arrays.toString(new FindtheDistanceValueBetweenTwoArrays1385().findRestaurant(list1, list2)));
         // Input: list1 = ["Shogun","Tapioca Express","Burger King","KFC"], list2 = ["KFC","Shogun","Burger King"]
         // Output: ["Shogun"]
-        // Explanation: The common string with the least index sum is "Shogun" with index sum = (0 + 1) = 1.
+        // Explanation: The common main.string with the least index sum is "Shogun" with index sum = (0 + 1) = 1.
         list1 = new String[]{"Shogun", "Tapioca Express", "Burger King", "KFC"};
         list2 = new String[]{"KFC", "Shogun", "Burger King"};
         System.out.println(Arrays.toString(new FindtheDistanceValueBetweenTwoArrays1385().findRestaurant(list1, list2)));

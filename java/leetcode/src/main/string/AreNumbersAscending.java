@@ -1,6 +1,4 @@
-package string;
-
-import java.util.*;
+package main.string;
 
 /**
  * Created by jayyeh on 2022/07/29
