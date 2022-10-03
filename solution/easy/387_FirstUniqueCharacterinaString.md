@@ -27,7 +27,7 @@ Output: -1
 
 ## Solution :
 
-
+這題主要是找第一個```唯一的```char, 因此for loop並且比對index即可。
 
 ## Code:
 
@@ -36,7 +36,16 @@ Output: -1
 ```java
 class Solution {
     public int firstUniqChar(String s) {
-        
+        Integer index = null;
+        Integer lastIndex = null;
+        for(char c : s.toCharArray()){
+            index = s.indexOf(c);
+            lastIndex = s.lastIndexOf(c);
+            if(index.equals(lastIndex)) {
+                return index;
+            }
+        }
+        return -1;
     }
 }
 ```
