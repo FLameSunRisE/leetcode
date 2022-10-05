@@ -41,7 +41,7 @@ s consists only of printable ASCII characters.
 
 ## Solution:
 
-Recursive
+用前後```pointer```去比對,略過非英文數字的字元,比對失敗就return false, 反之繼續比對,直到while結束
 
 ## code:
 
@@ -49,11 +49,31 @@ Recursive
 - java
   - Code
     ```java
-class Solution {
-    public boolean isPalindrome(String s) {
-        
+    class Solution {
+        public boolean isPalindrome(String s) {
+            int bottomPoint = 0;
+            int hightPoint = s.length() - 1;
+            char bottomPointCh, hightPointCh;
+            while (bottomPoint < hightPoint) {
+                bottomPointCh = s.charAt(bottomPoint);
+                if (!Character.isLetterOrDigit(bottomPointCh)) {
+                    bottomPoint++;
+                    continue;
+                }
+                hightPointCh = s.charAt(hightPoint);
+                if (!Character.isLetterOrDigit(hightPointCh)) {
+                    hightPoint--;
+                    continue;
+                }
+                if (Character.toLowerCase(bottomPointCh) != Character.toLowerCase(hightPointCh)) {
+                    return false;
+                }
+                bottomPoint++;
+                hightPoint--;
+            }
+            return true;
+        }
     }
-}
     ```
 
 - python
