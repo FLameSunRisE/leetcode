@@ -9,6 +9,7 @@
     * [575-Distribute Candies](solution/easy/575-distribute-candies.md)
     * [620-Not Boring Movies](solution/easy/620-not-boring-movies.md)
     * [682-Baseball Game](solution/easy/682-baseball-game.md)
+    * [724. Find Pivot Index](solution/easy/724_Find-Pivot-Index.md)
     * [784-Letter Case Permutation](solution/easy/784-Letter-Case-Permutation.md)
     * [766-Toeplitz Matrix](solution/easy/766-toeplitz-matrix.md)
     * [872-Leaf-Similar Trees](solution/easy/872leaf-similar-trees.md)
@@ -17,4 +18,3 @@
     * [892- Surface Area of 3D Shapes](solution/easy/892_SurfaceAreaof3DShapes.md)
     * [868-Binary Gap](solution/easy/868-binary-gap.md)
     * [937-Reorder Log Files](solution/easy/937-reorder-log-files.md)
-
