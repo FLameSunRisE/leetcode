@@ -4,7 +4,9 @@
 * Solution
   * [Easy](solution/easy.md)
     * [104-Maximum Depth of Binary Tree](solution/easy/104-maximum-depth-of-binary-tree.md)
+    * [205-Isomorphic-Strings](solution/easy/205-Isomorphic-Strings.md)
     * [136-Single Number](solution/easy/136-single-number.md)
+    * [392. Is Subsequence](solution/easy/392-Is-Subsequence.md)
     * [500-Keyboard Row](solution/easy/500-keyboard-row.md)
     * [575-Distribute Candies](solution/easy/575-distribute-candies.md)
     * [620-Not Boring Movies](solution/easy/620-not-boring-movies.md)

@@ -1,5 +1,6 @@
-package leetcode.src.main.string;
+package leetcode.src.test.string;
 
+import leetcode.src.main.string.IsIsomorphicString205;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
