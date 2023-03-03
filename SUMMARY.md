@@ -3,8 +3,10 @@
 * [Introduction](README.md)
 * Solution
   * [Easy](solution/easy.md)
+    * [21. Merge Two Sorted Lists](solution/easy/21_MergeTwoSortedLists.md)
     * [104-Maximum Depth of Binary Tree](solution/easy/104-maximum-depth-of-binary-tree.md)
     * [205-Isomorphic-Strings](solution/easy/205-Isomorphic-Strings.md)
+    * [206. Reverse Linked List](solution/easy/206-Reverse-Linked-List.md)
     * [136-Single Number](solution/easy/136-single-number.md)
     * [392. Is Subsequence](solution/easy/392-Is-Subsequence.md)
     * [500-Keyboard Row](solution/easy/500-keyboard-row.md)
