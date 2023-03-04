@@ -17,6 +17,8 @@
     * [784-Letter Case Permutation](solution/easy/784-Letter-Case-Permutation.md)
     * [766-Toeplitz Matrix](solution/easy/766-toeplitz-matrix.md)
     * [872-Leaf-Similar Trees](solution/easy/872leaf-similar-trees.md)
+    * [876. Middle of the Linked List
+](/solution/easy/876-Middle-of-the-Linked-List.md)
     * [884-Uncommon Words from Two Sentences](solution/easy/884-uncommon-words-from-two-sentences.md)
     * [893-Groups of Special-Equivalent Strings](solution/easy/893-groups-of-special-equivalent-strings.md)
     * [892- Surface Area of 3D Shapes](solution/easy/892_SurfaceAreaof3DShapes.md)
