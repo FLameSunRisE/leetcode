@@ -1,4 +1,4 @@
-package leetcode.src.main.linklist;
+package main.linklist;
 
 /**
  * ListNode-列表节点.

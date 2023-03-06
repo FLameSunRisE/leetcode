@@ -1,4 +1,6 @@
-package leetcode.src.main.linklist;
+package main.linklist;
+
+import main.linklist.ListNode;
 
 /**
  * MiddleOfTheLinkedList876.

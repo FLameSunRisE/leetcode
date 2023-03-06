@@ -1,4 +1,4 @@
-package leetcode.src.main.linklist;
+package main.linklist;
 
 /**
  * MergeTwoSortedLists21-合并两个排序lists21.

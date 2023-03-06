@@ -1,12 +1,11 @@
-package leetcode.src.test.linklist;
-
-import leetcode.src.main.linklist.ListNode;
-import leetcode.src.main.linklist.MergeTwoSortedLists21;
-import leetcode.src.main.linklist.ReverseLinkedList206;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+package test.linklist;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import main.linklist.ListNode;
+import main.linklist.ReverseLinkedList206;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 class ReverseLinkedList206Test {
 

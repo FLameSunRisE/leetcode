@@ -1,7 +1,7 @@
-package leetcode.src.test.linklist;
+package test.linklist;
 
-import leetcode.src.main.linklist.ListNode;
-import leetcode.src.main.linklist.MergeTwoSortedLists21;
+import main.linklist.ListNode;
+import main.linklist.MergeTwoSortedLists21;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

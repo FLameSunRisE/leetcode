@@ -1,4 +1,4 @@
-package leetcode.src.main.linklist;
+package main.linklist;
 
 /**
  * ReverseLinkedList206-反向链接list206.
