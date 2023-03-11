@@ -40,9 +40,9 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 
 ## Solution
 
+recursive
 
-
-## 時間複雜度：O(N)
+## 時間複雜度：O(2^n)
 
 ## 空間複雜度：O(N)
 
@@ -54,6 +54,14 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 
     ```java
     class Solution {
-
+      public int fib(int n) {
+          if (n == 0) {
+              return 0;
+          } else if (n == 1) {
+              return 1;
+          } else {
+              return fib(n - 1) + fib(n - 2);
+          }
+      }
     }
     ```
