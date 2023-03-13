@@ -32,6 +32,7 @@ Explanation: There are three ways to climb to the top.
 ```
 
 ## Solution:
+
 從題目中可以掌握到此題的規律
 - 題目範例
   - n = 3
@@ -50,12 +51,24 @@ Explanation: There are three ways to climb to the top.
 
 - DP (Bottom Up Approach)
 
+- ChatGPT
 
+  - 提供解法: 矩陣快速冪求解斐波那契數列
+  - 解法:
+    - pow:
+      - pow 方法使用矩陣快速冪計算矩陣 base 的 exp 次方，並返回結果
+      - 矩陣 base 是一個 2x2 的矩陣，用於表示斐波那契數列的遞推式。
+      - 矩陣 res 是一個 2x2 的單位矩陣，用於存儲計算結果。
+      - 使用 pow 方法計算斐波那契數列的第 n 項
+    - multiply:
+      - multiply 方法用於矩陣相乘
+      - 計算矩陣 a 和矩陣 b 的乘積，並返回結果矩陣 c。
 
-## code:
+## code
 
 - java
   - Code
+
     ```java
     class Solution {
       //  Time Limit Exceeded ==
@@ -74,6 +87,7 @@ Explanation: There are three ways to climb to the top.
         return climbStairs(n - 1) + climbStairs(n - 2);
       }
 
+      // dp
       public int climbStairs2(int n){
         //  basic check
         if (n == 0) {
@@ -96,12 +110,37 @@ Explanation: There are three ways to climb to the top.
 
         return dp[n];
       }
+
+      // 矩陣快速冪
+      public int climbStairs(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        int[][] base = {{1, 1}, {1, 0}};
+        int[][] res = pow(base, n - 2);
+        return 2 * res[0][0] + res[1][0];
+      }
+
+      private int[][] pow(int[][] base, int exp) {
+          int[][] res = {{1, 0}, {0, 1}};
+          while (exp > 0) {
+              if ((exp & 1) == 1) {
+                  res = multiply(res, base);
+              }
+              base = multiply(base, base);
+              exp >>= 1;
+          }
+          return res;
+      }
+
+      private int[][] multiply(int[][] a, int[][] b) {
+          int[][] c = new int[2][2];
+          for (int i = 0; i < 2; i++) {
+              for (int j = 0; j < 2; j++) {
+                  c[i][j] = a[i][0] * b[0][j] + a[i][1] * b[1][j];
+              }
+          }
+          return c;
+      }
     }
-    ```
-- python
-    ```py
-    class Solution:
-        # 解法一
-        
-        # 解法二
     ```
