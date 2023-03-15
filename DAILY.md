@@ -10,7 +10,7 @@
 | 2023/03/12 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)                               | easy     | [solution](/solution/easy/70_ClimbingStairs.md)         | Success       |
 | 2023/03/14 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)           | easy     | [solution](/solution/easy/746-MinCostClimbingStairs.md) | Success       |
 | 2023/03/15 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                       | easy     | [solution](/solution/easy/217-ContainsDuplicate.md)     | Success       |
-| 2023/03/08 | [題目範本](https://leetcode.com/problems/)                                                         | easy     | [solution](/solution/easy)                              | TODO          |
+| 2023/03/16 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)                 | easy     | [solution](/solution/easy)                              | TODO          |
 | 2023/03/08 | [題目範本](https://leetcode.com/problems/)                                                         | easy     | [solution](/solution/easy)                              | TODO          |
 | 2023/03/08 | [題目範本](https://leetcode.com/problems/)                                                         | easy     | [solution](/solution/easy)                              | TODO          |
 | 2023/03/08 | [題目範本](https://leetcode.com/problems/)                                                         | easy     | [solution](/solution/easy)                              | TODO          |
