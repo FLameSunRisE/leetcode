@@ -1,7 +1,8 @@
-package main.array;
+package test.array;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import main.array.ContainsDuplicate217;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

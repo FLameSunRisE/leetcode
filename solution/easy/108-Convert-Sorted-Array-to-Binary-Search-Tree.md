@@ -30,11 +30,14 @@ nums is sorted in a strictly increasing order.
 
 ## Solution
 
-- 
+- 典型二元搜尋樹解法
+- 使用recurive去切分中心
 
 ## 時間複雜度：O(N)
 
-## 空間複雜度：O(N)
+## 空間複雜度：O(logN)
+
+recurive的層數
 
 ## code
 
@@ -44,6 +47,22 @@ nums is sorted in a strictly increasing order.
 
     ```java
     class Solution {
-        
+        public TreeNode sortedArrayToBST(int[] nums) {
+            if (nums == null || nums.length == 0) {
+                return null;
+            }
+            return helper(nums, 0, nums.length - 1);
+        }
+
+        private TreeNode helper(int[] nums, int left, int right) {
+            if (left > right) {
+                return null;
+            }
+            int mid = (left + right) / 2;
+            TreeNode root = new TreeNode(nums[mid]);
+            root.left = helper(nums, left, mid - 1);
+            root.right = helper(nums, mid + 1, right);
+            return root;
+        }
     }
     ```

@@ -1,11 +1,19 @@
-package main.array;
+package test.array;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import main.array.ContainsDuplicateII219;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+/**
+ * ContainsDuplicateII219Test.
+ *
+ * @author jayyeh
+ * @version 1.0.0
+ * @date 2023/03/17
+ */
 class ContainsDuplicateII219Test {
 
   private ContainsDuplicateII219 solution;
