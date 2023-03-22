@@ -111,6 +111,7 @@
 | 905 | [sort-array-by-parity](https://leetcode.com/problems/sort-array-by-parity/) | Array | Easy | [python](/python/905.SortArrayByParity.py) | O\(N\) | O\(N\) |
 | 908 | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | Math | Easy | [python](/python/908_SmallestRangeI.py) | O\(N\) | O\(1\) |
 | 922 | [sort-array-by-parity-ii](https://leetcode.com/problems/sort-array-by-parity-ii/) | Array, Sort | Easy | [python](/python/922_SortArrayByParityII.py) | O\(N\) | O\(N\) |
+| 925 | [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/) | Two Pointers, String| Easy | [solution](/solution/easy/925-LongPressedName.md) | O\(N\) | O\(N\) |
 | 929 | [unique-email-addresses](https://leetcode.com/problems/unique-email-addresses/ "unique-email-addresses") | String | Easy | [python](/python/929_UniqueEmailAddresses.py) | O\(N\) | O\(N\) |
 | 933 | [number-of-recent-calls](https://leetcode.com/problems/number-of-recent-calls/) | Queue | Easy | [Python](/python/933_NumberOfRecentCalls.py) | O\(N\) | O\(N\) |
 | 942 | [di-string-match](https://leetcode.com/problems/di-string-match/) | Math | Easy | [python](/python/942_DIStringMatch.py) | O\(N\) | O\(N\) |
