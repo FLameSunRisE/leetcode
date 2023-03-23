@@ -2,34 +2,32 @@
 
 Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
-
 **Example:**
 
-```
+```txt
 Input: s = "leetcode"
 Output: 0
 ```
 
 **Example:**
 
-```
+```txt
 Input: s = "loveleetcode"
 Output: 2
 ```
 
 **Example:**
 
-```
+```txt
 Input: s = "aabb"
 Output: -1
 ```
 
-
-## Solution :
+## Solution
 
 這題主要是找第一個```唯一的```char, 因此for loop並且比對index即可。
 
-## Code:
+## Code
 
 * java
   
@@ -50,11 +48,9 @@ class Solution {
 }
 ```
 
-
 * python
 
 ```py
 class Solution:
 
 ```
-

@@ -37,7 +37,6 @@ class PathSum112Test {
         root.right = new TreeNode(3);
         assertFalse(solution.hasPathSum(root, 5));
     }
-
     @Test
     public void testPathSum_Null() {
         assertFalse(solution.hasPathSum(null, 1));
