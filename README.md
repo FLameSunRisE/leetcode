@@ -2,8 +2,6 @@
 
 ## Daily
 
-# Daily
-
 | 日期       | 題目                                                                                                                         | 題目難度 | 解題過程                                                  | 是否完成      |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------------------------------------------- | ------------- |
 | 2023/03/07 | [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)                           | easy     | [589](/solution/easy/589-NaryTreePreorderTraversal.md)    | Success(不熟) |
@@ -22,10 +20,6 @@
 | 2023/03/22 | [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)                                                   | easy     | [solution](/solution/easy/925-LongPressedName.md)         | TODO          |
 | 2023/03/23 | [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)                       | easy     | [solution](/solution/easy/171-ExcelSheetColumnNumber.md)  | Fail          |
 | 2023/03/24 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)                   | easy     | [solution](/solution/easy)                                | Fail          |
-| 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                   | easy     | [solution](/solution/easy)                                | TODO          |
-| 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                   | easy     | [solution](/solution/easy)                                | TODO          |
-| 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                   | easy     | [solution](/solution/easy)                                | TODO          |
-| 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                   | easy     | [solution](/solution/easy)                                | TODO          |
 | 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                   | easy     | [solution](/solution/easy)                                | TODO          |
 
 
