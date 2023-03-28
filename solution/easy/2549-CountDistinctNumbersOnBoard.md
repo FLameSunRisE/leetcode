@@ -164,3 +164,21 @@ class Solution {
 
 - 時間複雜度：$O(1)$
 - 空間複雜度：$O(1)$
+- 時間複雜度：$O(nlogn)$
+- 空間複雜度：$O(n)$
+
+### 解法二(參考)
+
+- 時間複雜度：$O(n)$
+- 空間複雜度：$O(n)$
+
+## code
+
+- java
+
+  - Code
+
+    ```java
+    class Solution {
+    }
+    ```
