@@ -1,5 +1,6 @@
-package main.hashmap;
+package test.hashmap;
 
+import main.hashmap.FindCommonCharacters1002;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
