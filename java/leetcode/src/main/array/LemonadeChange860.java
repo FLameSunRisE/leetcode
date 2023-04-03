@@ -8,7 +8,45 @@ package main.array;
  * @date 2023/04/03
  */
 public class LemonadeChange860 {
+
     public boolean lemonadeChange(int[] bills) {
+        int fiveCount = 0;
+        int tenCount = 0;
+        for (int i = 0; i < bills.length; i++) {
+            int cur = bills[i];
+            switch (cur) {
+                case 5:
+                    fiveCount++;
+                    break;
+                case 10:
+                    if (fiveCount >= 1) {
+                        fiveCount--;
+                        tenCount++;
+                    } else {
+                        return false;
+                    }
+                    break;
+                case 20:
+                    if (tenCount >= 1 && fiveCount >= 1) {
+                        tenCount--;
+                        fiveCount--;
+                    } else if (fiveCount >= 3) {
+                        fiveCount -= 3;
+                    } else {
+                        return false;
+                    }
+                    break;
+                default:
+                    break;
+            }
+            if (fiveCount < 0 || tenCount < 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean lemonadeChange1(int[] bills) {
         int fiveCount = 0;
         int tenCount = 0;
         for (int i = 0; i < bills.length; i++) {
@@ -32,11 +70,11 @@ public class LemonadeChange860 {
                     return false;
                 }
             }
-            if (check(fiveCount, tenCount)){
+            if (check(fiveCount, tenCount)) {
                 return false;
             }
         }
-        if (check(fiveCount, tenCount)){
+        if (check(fiveCount, tenCount)) {
             return false;
         }
         return true;
