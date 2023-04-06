@@ -27,12 +27,10 @@
 | 2023/03/29 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                          | Medium   | [solution](/solution/medium/49-GroupAnagrams.md)               | Fail          |
 | 2023/03/30 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/description/)                            | Medium   | [solution](/solution/easy/1002-Find-Common--Characters.md)     | Fail          |
 | 2023/04/01 | [914. X of a Kind in a Deck of Cards](https://leetcode.com/problemsx-of-a-kind-in-a-deck-of-cards/)                          | easy     | [solution](/solution/easy/914-X-of-a-Kindin-a-Deck-OfCards.md) | Fail          |
-| 2023/04/02 | [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)                                               |
-| easy       | [solution](/solution/easy/859-BuddyStrings.md)                                                                               | Fail     |
+| 2023/04/02 | [859. Buddy Strings](https://leetcode.com/problems/buddy-strings/description/)                                               | easy     | [solution](/solution/easy/859-BuddyStrings.md)                 | Fail          |
 | 2023/04/03 | [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)                                           | easy     | [solution](/solution/easy/860-LemonadeChange.md)               | Success       |
 | 2023/04/05 | [342. Power of Four](https://leetcode.com/problems/power-of-four/description/)                                               | easy     | [solution](/solution/easy/342-Power-of-Four.md)                | Success       |
-| 2023/04/06 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/)                                                             | easy     | [solution](/solution/easy/645-SetMismatch.md)                  | TODO          |
-| 2023/03/30 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                     | easy     | [solution](/solution/easy/9-palindrome-number.md)              | TODO          |
+| 2023/04/06 | [645. Set Mismatch](https://leetcode.com/problems/set-mismatch/)                                                             | easy     | [solution](/solution/easy/645-SetMismatch.md)                  | Success       |
 | 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                   | easy     | [solution](/solution/easy)                                     | TODO          |
 
 ## Summary
