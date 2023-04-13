@@ -38,4 +38,5 @@
 | 2023/04/08 | [1189. Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)                                | easy     | [solution](/solution/easy/1189-MaximuNumberofBalloons.md)      | Success       |
 | 2023/04/09 | [175. Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)                                                 | easy     | [solution](/solution/easy/175-CombineTwoTables.mdd)            | SUCCESS       |
 | 2023/04/12 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                              | easy     | [solution](/solution/easy/22-GenerateParentheses.md)           | Fail          |
+| 2023/04/13 | [1763. Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)                                              | easy     | [solution](/solution/easy/1763-LongestNiceSubstring.md)           | Fail          |
 | 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                   | easy     | [solution](/solution/easy)                                     | TODO          |
