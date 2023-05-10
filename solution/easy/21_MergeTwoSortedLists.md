@@ -43,6 +43,7 @@ Both list1 and list2 are sorted in non-decreasing order.
 2. in-place , iteratively
 
 - Question?
+
   - 為何 java 需要使用 dummy node :
     當我們建立一個新的 Linked List 時，我們需要有一個頭節點 (head node) 來表示這個 Linked List 的起點，通常會將第一個元素作為頭節點。
     但是，當我們需要插入一個新的元素時，插入的位置不一定在頭節點之後，而且如果我們不小心修改了頭節點，那麼原本的 Linked List 就會遺失，因此不方便操作。
@@ -50,6 +51,64 @@ Both list1 and list2 are sorted in non-decreasing order.
   - **Note: 使用 dummy 節點 (dummy node) 可以解決這個問題**
     - 合併兩個有序的 Linked List
     - 遍歷 Linked List 時，也可以從 dummy 節點開始
+
+- 運算過程
+
+  - 題目
+
+    ```rust
+    l1: 1 -> 2 -> 4 -> null
+    l2: 1 -> 3 -> 4 -> null
+    ```
+
+  - 過程
+
+    - 圖示
+
+    ```rust
+    dummy -> null
+
+    prev: dummy
+    l1: 1 -> 2 -> 4 -> null
+    l2: 1 -> 3 -> 4 -> null
+
+    1 <= 1
+    dummy -> 1 -> null
+
+    prev: 1
+    l1: 2 -> 4 -> null
+    l2: 1 -> 3 -> 4 -> null
+
+    1 <= 2
+    1 -> 1 -> null
+
+    prev: 1 -> 1
+    l1: 2 -> 4 -> null
+    l2: 3 -> 4 -> null
+
+    2 <= 3
+    1 -> 1 -> 2 -> null
+
+    prev: 1 -> 1 -> 2
+    l1: 4 -> null
+    l2: 3 -> 4 -> null
+
+    3 <= 4
+    1 -> 1 -> 2 -> 3 -> null
+
+    prev: 1 -> 1 -> 2 -> 3
+    l1: 4 -> null
+    l2: 4 -> null
+
+    4 <= 4
+    1 -> 1 -> 2 -> 3 -> 4 -> null
+
+    prev: 1 -> 1 -> 2 -> 3 -> 4
+    l1: null
+    l2: null
+
+    return dummy.next
+    ```
 
 ## code
 

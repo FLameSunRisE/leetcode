@@ -30,7 +30,7 @@ public class LongestCommonPrefix14 {
   }
 
 
-  public String longestCommonPrefix(String[] strs) {
+  public String longestCommonPrefix_otp(String[] strs) {
     if (strs.length == 0) {
       return "";
     }
