@@ -9,6 +9,35 @@ public class LongestCommonPrefix14 {
    * @return {@link String }
    */
   public String longestCommonPrefix(String[] strs) {
+    //   return this.longestCommonPrefix_first(strs);
+    //   return this.longestCommonPrefix_two_point(strs);
+    return this.longestCommonPrefix_opt(strs);
+  }
+
+  public String longestCommonPrefix_opt(String[] strs) {
+    if (strs == null || strs.length == 0) {
+      return "";
+    }
+
+    String prefix = strs[0];
+    for (int i = 1; i < strs.length; i++) {
+      while (!strs[i].startsWith(prefix)) {
+        prefix = prefix.substring(0, prefix.length() - 1);
+        if (prefix.isEmpty()) {
+          return "";
+        }
+      }
+    }
+    return prefix;
+  }
+
+  /**
+   * longestCommonPrefix_first_answer. time complexity: O(m * n) space complexity: O(1)
+   *
+   * @param strs
+   * @return {@link String }
+   */
+  public String longestCommonPrefix_first(String[] strs) {
     if (strs.length == 0) {
       return "";
     }
@@ -30,7 +59,14 @@ public class LongestCommonPrefix14 {
   }
 
 
-  public String longestCommonPrefix_otp(String[] strs) {
+  /**
+   * longestCommonPrefix_otp. time space: O(m * logn) space complexity: O(1) problem: Time Limit
+   * Exceeded
+   *
+   * @param strs
+   * @return {@link String }
+   */
+  public String longestCommonPrefix_two_point(String[] strs) {
     if (strs.length == 0) {
       return "";
     }
