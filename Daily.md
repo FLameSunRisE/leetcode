@@ -40,4 +40,9 @@
 | 2023/04/12 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                                             | easy     | [solution](/solution/easy/22-GenerateParentheses.md)                                | Fail          |
 | 2023/04/13 | [1763. Longest Nice Substring](https://leetcode.com/problems/longest-nice-substring/)                                                       | easy     | [solution](/solution/easy/1763-LongestNiceSubstring.md)                             | Fail          |
 | 2023/05/15 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | easy     | [solution](/solution/easy/28-Find-the-Index-of-the-First-Occurrence-in-a-String.md) | Success       |
+| 2023/05/16 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                         | easy     | [solution](/solution/easy/35-Search-Insert-Position.md)                             | Success       |
+| 2023/05/16 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)                                                   | easy     | [solution](/solution/easy/58-Length-Of-Last-Word.md)                                | Success       |
+| 2023/05/16 | [66. Plus One](https://leetcode.com/problems/plus-one/)                                                                                     | easy     | [solution](/solution/easy/66-PlusOne.md)                                            | Success       |
 | 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                                  | easy     | [solution](/solution/easy)                                                          | TODO          |
+
+1.  Length of Last Word
