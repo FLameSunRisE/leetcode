@@ -16,7 +16,7 @@ class Solution:
                 oddList.append(i)
         evenList.extend(oddList)
         return evenList
-        
+        【
         # In-Place
         # Time Complexity: O(N)
         # Space Complexity: O(1)O(1)

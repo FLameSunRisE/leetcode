@@ -43,6 +43,5 @@
 | 2023/05/16 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                         | easy     | [solution](/solution/easy/35-Search-Insert-Position.md)                             | Success       |
 | 2023/05/16 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/)                                                   | easy     | [solution](/solution/easy/58-Length-Of-Last-Word.md)                                | Success       |
 | 2023/05/16 | [66. Plus One](https://leetcode.com/problems/plus-one/)                                                                                     | easy     | [solution](/solution/easy/66-PlusOne.md)                                            | Success       |
-| 2023/03/XX | [題目範本](https://leetcode.com/problems/)                                                                                                  | easy     | [solution](/solution/easy)                                                          | TODO          |
-
-1.  Length of Last Word
+| 2023/05/22 | [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)          | Medium   | [solution](/solution/medium/3-Longest-Substring-Without-Repeating-Characters.md)    | Fail          |
+| 2023/05/23 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                   | Medium   | [solution](/solution/medium/11-Container-With-Most-Water.md)                        | Success       |
