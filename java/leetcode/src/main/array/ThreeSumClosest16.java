@@ -10,38 +10,29 @@ public class ThreeSumClosest16 {
 
   private int threeSumClosest_first(int[] nums, int target) {
     Arrays.sort(nums);
-    int closeSum = nums[0] + nums[1] + nums[2];
+    int n = nums.length;
+    int closestSum = nums[0] + nums[1] + nums[2];
 
-    for (int i = 0; i < nums.length - 2; i++) {
-      // 跳過計算過的數字
-      if (i > 0 && nums[i] == nums[i - 1]) {
-        continue;
-      }
+    for (int i = 0; i < n - 2; i++) {
       int left = i + 1;
-      int right = nums.length - 1;
+      int right = n - 1;
 
       while (left < right) {
         int sum = nums[i] + nums[left] + nums[right];
-        if (sum == closeSum) {
+        if (sum == target) {
           return sum;
-        } else if (Math.abs(sum - target) < Math.abs(closeSum - target)) {
-          closeSum = sum;
+        } else if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+          closestSum = sum;
         }
+
         if (sum < target) {
           left++;
-          while (left < right && nums[left] == nums[left - 1]) {
-            left++;
-          }
         } else {
           right--;
-          while (left < right && nums[right] == nums[right + 1]) {
-            right--;
-          }
         }
       }
-
     }
-    return closeSum;
+    return closestSum;
   }
 
 }

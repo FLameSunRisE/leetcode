@@ -42,6 +42,9 @@ Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
 ### 解法一:
 
 - 思路
+  - 首先排序,與```15.3 Sum```那堤解題思路一樣
+  - 初始化變數:
+    - closeSum: 最接近target的暫存變數
   - 
 - 效率
   - 時間複雜度：$O(n)$
@@ -51,39 +54,31 @@ Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
   ```java
   class Solution {
     public int threeSumClosest(int[] nums, int target) {
-        Arrays.sort(nums);
-        int closeSum = nums[0] + nums[1] + nums[2];
-        for (int i = 0; i < nums.length - 2; i++) {
-          // 跳過計算過的數字
-          if (i > 0 && nums[i] == nums[i - 1]) {
-            continue;
-          }
-          int left = i + 1;
-          int right = nums.length - 1;
+      Arrays.sort(nums);
+      int n = nums.length;
+      int closestSum = nums[0] + nums[1] + nums[2];
 
-          while (left < right) {
-            int sum = nums[i] + nums[left] + nums[right];
-            if (sum == closeSum) {
-              return sum;
-            } else if (Math.abs(sum - target) < Math.abs(closeSum - target)) {
-              closeSum = sum;
-            }
-            if (sum < target) {
-              left++;
-              while (left < right && nums[left] == nums[left - 1]) {
-                left++;
-              }
-            } else {
-              right--;
-              while (left < right && nums[right] == nums[right + 1]) {
-                right--;
-              }
-            }
+      for (int i = 0; i < n - 2; i++) {
+        int left = i + 1;
+        int right = n - 1;
+
+        while (left < right) {
+          int sum = nums[i] + nums[left] + nums[right];
+          if (sum == target) {
+            return sum;
+          } else if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+            closestSum = sum;
           }
 
+          if (sum < target) {
+            left++;
+          } else {
+            right--;
+          }
         }
-        return closeSum;
       }
+      return closestSum;
+    }
   }
   ```
 
