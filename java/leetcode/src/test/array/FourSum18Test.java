@@ -1,7 +1,5 @@
 package test.array;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.Arrays;
 import java.util.List;
 import main.array.FourSum18;
@@ -26,6 +24,17 @@ class FourSum18Test {
         Arrays.asList(-2, -1, 1, 2),
         Arrays.asList(-2, 0, 0, 2),
         Arrays.asList(-1, 0, 0, 1)
+    );
+    List<List<Integer>> result = solution.fourSum(nums, target);
+    Assertions.assertEquals(expected, result);
+  }
+
+  @Test
+  public void testFourSum_fail1() {
+    int[] nums = {1000000000, 1000000000, 1000000000, 1000000000};
+    int target = -294967296;
+    List<List<Integer>> expected = Arrays.asList(
+        Arrays.asList(1000000000, 1000000000, 1000000000, 1000000000)
     );
     List<List<Integer>> result = solution.fourSum(nums, target);
     Assertions.assertEquals(expected, result);
