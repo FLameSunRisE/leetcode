@@ -3,6 +3,8 @@
 - [Daily](#daily)
   - [日誌](#日誌)
 
+---
+
 ## 日誌
 
 | 日期       | 題目                                                                                                                                        | 題目難度 | 解題過程                                                                            | 是否完成      |
@@ -51,4 +53,6 @@
 | 2023/05/30 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)                           | Medium   | [solution](/solution/medium/17-Letter-Combinations-of-a-Phone-Number.md)            | Fail          |
 | 2023/05/31 | [18. 4Sum](https://leetcode.com/problems/4sum/)                                                                                             | Medium   | [solution](/solution/medium/18-4Sum.md)                                             | Fail          |
 | 2023/06/1  | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                     | Medium   | [solution](/solution/medium/19-Remove-Nth-Node-From-End-of-List.md)                 | Fail          |
-| 2023/06/07  | [257. binary-tree-paths](https://leetcode.com/problems/)                                     | Medium   | [solution](/solution/medium)                 | TODO          |
+| 2023/06/07 | [257. binary-tree-paths](https://leetcode.com/problems/)                                                                                    | Medium   | [solution](/solution/medium)                                                        | TODO          |
+| 2023/06/8  | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)                          | Medium   | [solution](/solution/medium/215-kth-largest-element-in-an-array.md)                 | Success       |
+| 2023/06/8  | [524. Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/)  | Medium   | [solution](/solution/medium/524-longest-word-in-dictionary-through-deleting.md)     | Fail          |
