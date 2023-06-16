@@ -66,7 +66,9 @@ The number of nodes in the tree is in the range [0, 5000].
 
 - 效率
   - 時間複雜度：$O(n)$
-    空間複雜度：$O(n)$
+    - $n$ 是二叉樹的節點數量
+  - 空間複雜度：$O(\log n)$ ～ $O(n)$
+    - 最壞情況下，當二叉樹為一個鏈式結構時，遞歸的深度是 $O(n)$
 - code
 
   ```java
